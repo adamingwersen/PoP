@@ -32,10 +32,31 @@ while i < 5 do
 
 
  // 3ø.5
+let n = 10
+let f x y = x * y
+for i = 1 to n do
+    for j = 1 to n do
+        printf "%5i" (f i j)
+    printfn ""
+ 
  // 3ø.6
   // (a):
+let mutable j = 0
+let mutable prodJ = 1
 
+let prodFct n =
+  while j < n do
+    j <- j + 1
+    prodJ <- prodJ * j
+  prodJ
+printfn "%A" (prodFct 10)
 
+ // (b):
+let rec prodRecFct = function
+    | 0 -> 1
+    | n -> n * prodRecFct(n-1)
+printfn "%A" (prodRecFct 10)
 
+ // (c):
 
 
