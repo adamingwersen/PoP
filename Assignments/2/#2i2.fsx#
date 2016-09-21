@@ -7,3 +7,6 @@ let subStreng1 = streng.[0..4]
 let subStreng2 = streng.[6..10]
 printfn "%A" subStreng1
 printfn "%A" subStreng2
+
+
+

@@ -1,18 +1,42 @@
-\subsection*{2i.0 -EBNF}
+\subsection*{2i.0}
 Denne delopgave beskæftiger sig med metasyntaksen 'Extended Backus-Naur Form' (EBNF). Vi betragter her en EBNF der indeholder 4 tokens. 
 \begin{enumerate}
 \item{charLiteral kan antage enhver unicode værdi}
 \item{stringLiteral kan antage enhver unicode værdi i citationstegn}
 \item{operator kan udelukkende antage værdien '+'}
-\item{expression kan enten antage værdi i form af stringLiteral eller..}
+\item{expression kan enten antage værdi i form af stringLiteral eller stringLiteral efterfulgt af operator efterfulgt af expression}
 \end{enumerate}
 
 
+Expressions kan udtrykkes udelukkende af kombinationer af tokener - som i denne sammenhæng ikke har noget eksplicit indhold:
+\newline
+\begin{enumerate}
+\item{Exp1 $\leftarrow$ stringLiteral}
+\item{Exp2 $\leftarrow$ stringLiteral, operator, stringLiteral, operator, Exp1}
+\item{Exp3 $\leftarrow$ stringliteral, operator, Exp2}
+\begin{itemize}
+\item[=]{stringliteral, operator, stringLiteral, operator, stringLiteral, operator, stringLiteral}
+\end{itemize}
+\end{enumerate}
+
+Hver enkelt token er defineret ved en eller flere terminaler - som er antager værdier som f.eks. unicode karakterer. Terminaler kan sammensættes inden for reglementet defineret i hvert token. Givet betragtede EBNF har vi, at mulige kombinationer kan være et arbitrært antal adderede strenge. Af mulige kombinationer, er 3 anført i listen nedenfor:
+\newline
+\begin{enumerate}
+\item{"Chika chika" $\rightarrow$ "Chika chika"}
+\item{"What?"+"..."+"My name is..."+"Who?..."+[Expression 1] $\rightarrow$ "What?...My name is...Who?..Chika chika"}
+\item{"Hi.. My name is.. "+[Expression 2] $\rightarrow$ "Hi.. My name is.. What?...My name is...Who?..Chika chika"}
+\end{enumerate}
+
+EBNF'en er ikke i stand til at arbejde med værdier, som ikke er defineret i et token. Eksempler på situationer, hvor sekvenser er ikke-gyldige er angivet nedenfor:
+\newline
+\begin{enumerate}
+\item{stringLiteral, stringLiteral, operator, operator}
+\item{"Hej"*"Hej"}
+\item{amamdmawdjwjadjaw}
+\end{enumerate}
 
 
-
-\subsection*{2i.1 - Tabel}
-
+\subsection*{2i.1}
 \begin{center}
     \begin{tabular}{ | l | l | l | l |}
     \hline
@@ -25,6 +49,9 @@ Denne delopgave beskæftiger sig med metasyntaksen 'Extended Backus-Naur Form' (
     \end{tabular}
 \end{center}
 
-\subsection*{2i.2 - Fsharp}
 
+\subsection*{2i.2}
 
+I denne delopgave, var jeg i tvivl om, hvad der bliver spurgt efter. Jeg har udarbejdet en besvarelse, som var i overenstemmelse med min umiddelbare opfattelse af spørgsmålet: 
+
+\lstinputlisting[language=FSharp]{2i2.fsx}
