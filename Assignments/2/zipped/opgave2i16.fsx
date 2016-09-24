@@ -1,0 +1,9 @@
+///   Mulighed 1)
+let streng = "hello world"
+printfn "%A" (streng.[0..4] + streng.[6..10])
+
+///   Mulighed 2)
+let subStreng1 = streng.[0..4]
+let subStreng2 = streng.[6..10]
+printfn "%A" subStreng1
+printfn "%A" subStreng2
