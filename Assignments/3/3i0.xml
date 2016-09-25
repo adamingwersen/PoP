@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>3i0</name></assembly>
+<members>
+<member name="M:3i0.metaFct(System.Int32)">
+ <c> Delopgave (d) </c>
+ <returns> Sammenligning af funktionerne i a, b, og c for vilkårlig værdi af n </returns>
+</member>
+<member name="M:3i0.simpleSum(System.Int32)">
+ <c> Delopgave (c) </c>
+ <returns> En funktion, der i stedet for at iterere, benytter sumformel </returns>
+</member>
+<member name="M:3i0.recSum(System.Int32)">
+ <c> Delopgave (b) </c>
+ <returns> En rekursiv funktion, der summerer over 1-til-n </returns>
+</member>
+<member name="M:3i0.sum(System.Int32)">
+ <c> Delopgave (a) </c>
+ <returns> Et while-loop, der summerer over 1-til-n </returns>
+</member>
+<member name="P:3i0.n">
+ <summary> Denne .fsx fil indeholder samtlige delopgaver i 3i0 </summary>
+ <c> Her defineres en arbitrær variabel n, før funktionskald </c>
+</member>
+</members>
+</doc>

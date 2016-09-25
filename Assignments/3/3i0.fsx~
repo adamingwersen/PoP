@@ -1,0 +1,35 @@
+/// <summary> Denne .fsx fil indeholder samtlige delopgaver i 3i0 </summary>
+
+
+/// <remarks> Delopgave (a) </remarks>
+/// <param name = "i"> Konstruerer mutérbar variabel, som skal anvendes i while-loop </param>
+/// <returns> Et while-loop, der summerer over 1-til-n </returns>
+
+let mutable i = 0
+let mutable s = 0
+let sum n =
+    while i < n do
+        i <- i + 1
+        s <- i + s
+    s
+printfn "%i" (sum 10)
+
+/// <remarks> Delopgave (b) </remarks>
+/// <param name = ""> </param>
+/// <returns> En rekursiv funktion, der summerer over 1-til-n </returns>
+
+let rec recSum n = function
+    | 0 -> 1
+    | n -> n + recSum(n-1)
+printfn "%i" (recSum 10)
+
+
+/// <remarks> Delopgave (c) </remarks>
+/// <returns> En funktion, der i stedet for at iterere, benytter sumformel </returns>
+
+let simpleSum n =
+    n*(n+1)/2
+printfn "%i" (simpleSum 10)
+
+/// <remarks> Delopgave (d) </remarks>
+/// <returns> Sammenligning af funktionerne i (a), (b), & (c) </returns>
