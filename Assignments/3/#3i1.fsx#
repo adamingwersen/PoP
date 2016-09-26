@@ -11,9 +11,10 @@ let multable n =
         while j <= 10 do
             j <- j + 1
             printf "5%i"
-            j
         printfn ""
-        i
     printfn ""
 
 multable 5
+
+let table x =
+    
