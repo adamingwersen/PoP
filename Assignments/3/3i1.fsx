@@ -1,19 +1,21 @@
-
 /// <summary> Denne fil indeholder alle delspørgsmål i 3i1 </summary>
 
 /// <c> Delopgave a </c>
 
-let multable n =
-    let mutable i = 0
-    let mutable j = 0
-    while i <= 10 do
-        i <- i +1
-        while j <= 10 do
-            j <- j + 1
-            printf "5%i"
-            j
-        printfn ""
-        i
-    printfn ""
 
-multable 5
+
+let mutable g = ""
+let mulTable n =
+    let k = 10
+    let f x y = x * y
+    g <- sprintf "\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10"
+    for i = 1 to n do
+        g <- g + sprintf "\n %i\t" i
+        for j = 1 to k do
+            g <- g + sprintf "%i\t" (f i j)
+    printfn "%s" g
+
+mulTable 8
+
+
+

@@ -3,7 +3,7 @@
 /// <c> Her defineres en arbitrær variabel n, før funktionskald </c>
 
 
-let n = 20
+let n = 9
 
 printfn "\nVærdien af n er %i - dette kan ændres øverst i programmet" n
 printfn ""
