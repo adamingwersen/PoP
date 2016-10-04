@@ -19,7 +19,7 @@ let loopMulTable n =
             g <- g + sprintf "%i\t" (f i j)
     printfn "%s" g
 
-/// <remarks> Dette loop viser tabel-outputtet for n = 1 til 10 </remarks>
+/// <remarks> Dette loop viser tabel-outputtet for n = 1, 2, 3, 10 </remarks>
 
 for i = 1 to 3 do
     printfn "\n loopMultable : n = %i" i
@@ -61,18 +61,37 @@ printfn "\n mulTable : n = %i" 10
 mulTable 10
 
 
-/// <summary> Delopgave C: Her konstrueres et resultat identisk med det, som som i delopgave A.
-/// I stedet for for-loops, anvendes rekursion </summary>
+/// <summary> Delopgave C: Her forsøges det, at konstruere identisk streng som i A & B. 
+/// Desværre, har jeg ikke haft succes med at implementere hale-rekursion eller vende strengen om..///  </summary>
 
-/// <param name = " "> </param>
+let rec recMultable n =
+  match n with
+  | 0 -> string "\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10"
+  | _ -> sprintf "%d\t" n +
+         sprintf "%d\t" (n*1) +
+         sprintf "%d\t" (n*2) +
+         sprintf "%d\t" (n*3) +
+         sprintf "%d\t" (n*4) +
+         sprintf "%d\t" (n*5) +
+         sprintf "%d\t" (n*6) +
+         sprintf "%d\t" (n*7) +
+         sprintf "%d\t" (n*8) +
+         sprintf "%d\t" (n*9) +
+         sprintf "%d\t" (n*10) +
+         "\n" + (recMultable (n-1))
 
+printfn "%A" (recMultable 5)
 
 /// <summary> Delopgave D:  </summary>
+
+/// <remarks> Jeg nåede det simpelthen ikke </remarks>
 
 /// <summary> Delopgave E: Forskellen mellem de to argumenter i printf er, at "%A" returnerer strengen i quotes (""), mens "%s" returnerer strengen foruden quotes. </summary>
 
 /// <c> printf "%s" g </c>
 /// <c> printf "%A" g </c>
+
+
 
 
 

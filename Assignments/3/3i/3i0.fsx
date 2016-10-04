@@ -1,7 +1,15 @@
 /// <summary> Denne .fsx fil indeholder samtlige delopgaver i 3i0 </summary>
 
+<<<<<<< HEAD:Assignments/3/3i/3i0.fsx
+/// <c> Her defineres en arbitrær variabel n, før funktionskald </c>
+
+
+let n = 10
+
+=======
 /// <summary> Her angives værdien for n - denne værdi printes, som det første, når programmet køres. </summary>
 let n = 9
+>>>>>>> edad74fe26d0f6960879dd18e63cf8451185d2d8:Assignments/3/3i0.fsx
 printfn "\nVærdien af n er %i - dette kan ændres øverst i programmet" n
 printfn ""
 
