@@ -1,8 +1,4 @@
-/// <summary> 4ø2 </summary>
+/// <summary> 4.11 </summary>
 
-let L1 = [1; 2; 3]
-let L2 = [4; 5; 6]
+let liste = [1;1;2;2;3;3;4;4;5;5;6;6;7;7]
 
-
-        
-        

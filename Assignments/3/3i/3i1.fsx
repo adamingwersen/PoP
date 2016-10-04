@@ -8,7 +8,6 @@
 /// <param name = "k"> Fixed variabel, der angiver antallet af kolonner i "g" </param>
 
 /// <returns> Funktionen mulTableB tager et input, n, som angiver antallet af rækker og returnerer /// en streng indeholdende række- samt kolonnenummer og en titalstabel med n rækker. </returns>
-
 let mutable g = ""
 let loopMulTable n =
     let k = 10
@@ -37,9 +36,6 @@ loopMulTable 10
 /// <param name = "q"> En værdi der antager værdien for "n" og evalueres i control-flowet som anfør/// t i funktionen tabRows </param>
 /// <param name = "g"> Strengen fra delopgave b, der indeholder hele tabellen </param>
 /// <param name = "actString"> Indicerings-expression </param>
-
-
-
 let mulTable n =
     let tabRows q =
         match q with
