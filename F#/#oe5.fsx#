@@ -41,6 +41,12 @@ let a = [1; 1; 2; 9; 9; 9; 5; 11; 75; 23; 99]
 
 printfn "%A" (ssort a)
 
+/// <remarks> Nej, programmøren er ikke nødvendigvis snedig, da funktionen ikke håndterer duplicates </remarks>
+
+/// <summary> Opgave 5.7 </summmary>
+
+
+
 
 
 

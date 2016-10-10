@@ -55,7 +55,7 @@ let mulTable n =
     actString
 
 for i = 1 to 3 do
-    sprintf "\n mulTable : n = %i" i
+    printfn "\n mulTable : n = %i" i
     mulTable i
 
 printfn "\n mulTable : n = %i" 10
