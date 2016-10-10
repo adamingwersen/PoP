@@ -8,8 +8,8 @@
 /// <param name = "k"> Fixed variabel, der angiver antallet af kolonner i "g" </param>
 
 /// <returns> Funktionen mulTableB tager et input, n, som angiver antallet af rækker og returnerer /// en streng indeholdende række- samt kolonnenummer og en titalstabel med n rækker. </returns>
-let mutable g = ""
 let loopMulTable n =
+    let mutable g = ""
     let k = 10
     let f x y = x * y
     g <- sprintf "\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10"
@@ -18,13 +18,6 @@ let loopMulTable n =
         for j = 1 to k do
             g <- g + sprintf "%i\t" (f i j)
     g
-
-for i = 1 to 3 do
-    printfn "\n loopMultable : n = %i" i
-    loopMulTable i
-
-printfn "\n loopMultable : n = %i" 10
-loopMulTable 10
 
 /// <remarks> Dette loop viser tabel-outputtet for n = 1, 2, 3, 10 </remarks>
 
@@ -38,6 +31,7 @@ loopMulTable 10
 /// <param name = "g"> Strengen fra delopgave b, der indeholder hele tabellen </param>
 /// <param name = "actString"> Indicerings-expression </param>
 let mulTable n =
+    let mutable g = (loopMulTable n)
     let tabRows q =
         match q with
         | 1 -> 44
@@ -55,11 +49,9 @@ let mulTable n =
     actString
 
 for i = 1 to 3 do
-    sprintf "\n mulTable : n = %i" i
-    mulTable i
+    printfn "\n mulTable : n = %i \n %s" i (mulTable i)
 
-printfn "\n mulTable : n = %i" 10
-mulTable 10
+printfn "\n mulTable : n = %i \n %s" 10 (mulTable 10)
 
 /// <summary> Delopgave C: Her forsøges det, at konstruere identisk streng som i A & B. 
 /// Desværre, har jeg ikke haft succes med at implementere hale-rekursion eller vende strengen om..///  </summary>
@@ -85,10 +77,11 @@ printfn " recMultable %s"  (recMultable 10)
 /// <summary> Delopgave D: Her sammenlignes 2 strenge ad gangen og outputtes i tabel </summary>
 let compare n =
     printfn ""
-    printfn "\t n \t result "
-    printf "%b %b" ((mulTable n) = (loopMulTable n)) ((mulTable n) = (recMultable n))
-compare 10
+    printfn "n \t mulTable|loopMultable \t mulTable|recMultable \t loopMulTable|recMultable "
+    printfn "%i \t\t %b \t\t\t %b \t\t\t %b" n  ((mulTable n) = (loopMulTable n)) ((mulTable n) = (recMultable n)) ((loopMulTable n) = (recMultable n))
 
+for i = 1 to 10 do
+    compare i
 
 /// <summary> Delopgave E: Forskellen mellem de to argumenter i printf er, at "%A" returnerer strengen i quotes (""), mens "%s" returnerer strengen foruden quotes. </summary>
 
