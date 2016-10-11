@@ -1,0 +1,14 @@
+///<summary>vender listen ved at hente elementerne et af gangen fra det forreste og flytte dem til dem til en ny liste   </summary>
+///<param name = "vend">vender lister   </param>
+///<return> En liste hvor elementerne har fået omvendt rækkefølge  </return>
+
+  
+let rec minus list1 list2=
+  match (list1,list2) with
+  |([],_) -> []
+  |(ls,[]) -> [] 
+  |(l1::ls,x1::xs) when l1 < x1 -> l1::(minus ls list2)
+  |(l1::ls,x1::xs) when l1 > x1 -> (minus list1 xs)
+  |(l1::ls,x1::xs)  -> (minus ls xs)
+  
+printfn "%A" (minus [2;2;3;4] [1;2;4])

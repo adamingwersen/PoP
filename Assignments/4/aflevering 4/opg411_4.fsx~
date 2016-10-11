@@ -1,0 +1,12 @@
+///<summary> funkktionen er en recursiv funktion der sammenligniner de 2 første elementer af hver liste og flytter det laveste til en ny liste. denne process fortsættes til en af listerne er tom hvorefter resten af den anden liste flyttes til den nye.  </summary>
+///<param name = "plus">lægger 2 lister sammen til en ny i sortet rækkefølge </param>
+///<return>en liste med tallene fra de 2 lister </return
+
+let rec plus list1 list2 =
+  match (list1,list2) with
+  | ([],xs) -> []@xs
+  | (ls,[]) -> []@ls
+  | (l1::ls,x1::xs) when l1 > x1 -> x1::(plus list1 xs)
+  | (l1::ls,_) -> l1::(plus ls list2)
+
+printfn "%A" (plus [1;2;3;4] [1;2;3;4])
