@@ -7,11 +7,19 @@ let concat list =
 printfn "%A" (concat listOfList)
 
 /// <summary> i5.2 </summary>
-let floatList = [2.0;3.11;4.91;1.11;84.13]
+/// <summary> Her vil jeg anvende funktionerne tryFind og map </summary>
+let floatList = 2.0::3.11::4.91::1.11::84.13::[]
 
-let rec avgFloat = function
-    | (_,[]) -> "None"
-    | (x, y::ys) -> k = x + y + avgFloat(x, ys) 
+let rec findFloat x = function
+    | [] -> None
+    | x::xs -> List.tryFind(fun x -> x = x) xs
+
+printfn "%A" (findFloat floatList)
+
+/// <summary> i5.3 </summary>
+
+/// <summary> i5.4 </summary>
+
 
 
 
