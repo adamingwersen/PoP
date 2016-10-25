@@ -40,6 +40,8 @@ let enFig =
     let enFirkant = Rectangle (rPoint1, rPoint2, rColor)
     Mix(enCirkel, enFirkant)
 
+
+
 let makePicture name pic b h =
     makeBMP.makeBMP name b h (fun (x,y) ->
                               match colorAt (x,y) pic with
