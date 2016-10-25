@@ -6,6 +6,7 @@ type fig =
     | Circle of point * int * color
     | Rectangle of point * point * color
     | Mix of fig * fig
+    | Twice of fig * (int * int)
 
 
 let rec colorAt (x,y) fig =
@@ -21,6 +22,11 @@ let rec colorAt (x,y) fig =
         | (None, c) -> c
         | (c, None) -> c
         | (Some (r1,g1,b1), Some (r2,g2,b2)) -> Some ((r1+r2)/2, (g1+g2)/2, (b1+b2)/2)
+    | Twice (m1, i1) ->
+        match(colorAt (x,y) m1, colorAt (x,y)) with
+        | None -> c
+        | (c) -> c
+        | (Some(r1, g1, b1), Some(r2, g2, b2)) -> Some (r2, g2, b2)
 
 let cColor = (255,0,0)
 let cPoint = (50,50)
@@ -41,7 +47,23 @@ let makePicture name pic b h =
                               |Some (c) -> c)
 
 makePicture "hej" enFig 100 150
+
+let pushVec = (50, 70)
+
+let dblFig =
+    let enCirkel = Circle (cPoint, cInt, cColor)
+    let enFirkant = Rectangle (rPoint1, rPoint2, rColor)
+    let mixed = Mix(enCirkel, enFirkant)
+    Twice(mixed, (pushVec))
+
+makePicture "dublet" dblFig 100 150
+
+
+
+
     
+    
+
                               
     
 
