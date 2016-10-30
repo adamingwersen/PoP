@@ -104,6 +104,15 @@ open System.IO
 File.WriteAllText(newfilename, html.[0..])   
 printfn "Downloaded from %A. Wrote file to %A. First %d chars are: \n  %A" url newfilename a html.[0..a]
 
+let rec writeFile (stream : System.IO.StreamWriter) text =
+    match text with
+    | (l : string) :: ls ->
+        stream.StreamWriter l
+        writeFile stream ls
+    | _ -> ()
+let outputStream = System.IO.File.CreateText "secondhttr.txt"
+writeFile outputStream html.[0..]
+
 
 
 
