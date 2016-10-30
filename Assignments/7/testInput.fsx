@@ -94,6 +94,10 @@ let readURL url =
     let reader = new System.IO.StreamReader(stream)
     reader.ReadToEnd ()
 
+let writeURLContent stream =
+    let writer = new System.IO.StreamWriter(html.[0..])
+    writer.WriteToEnd ()
+
 let url = "https://google.com"
 let a = 10
 let newfilename = "httrGet.txt"
@@ -102,8 +106,10 @@ let html = readURL url
 open System.Net
 open System.IO
 File.WriteAllText(newfilename, html.[0..])   
-printfn "Downloaded from %A. Wrote file to %A. First %d chars are: \n  %A" url newfilename a html.[0..a]
+printfn "Downloaded from %A. Wrote file to %A. First %d chars are: \n  %A" url newfilename a html.[0..a]     
 
+
+(*
 let rec writeFile (stream : System.IO.StreamWriter) text =
     match text with
     | (l : string) :: ls ->
@@ -112,6 +118,10 @@ let rec writeFile (stream : System.IO.StreamWriter) text =
     | _ -> ()
 let outputStream = System.IO.File.CreateText "secondhttr.txt"
 writeFile outputStream html.[0..]
+*)
+
+
+
 
 
 
