@@ -94,10 +94,11 @@ let readURL url =
     let reader = new System.IO.StreamReader(stream)
     reader.ReadToEnd ()
 
+(*
 let writeURLContent stream =
-    let writer = new System.IO.StreamWriter(html.[0..])
-    writer.WriteToEnd ()
-
+let writer = new System.IO.StreamWriter(html.[0..])
+writer.WriteToEnd ()
+*)
 let url = "https://google.com"
 let a = 10
 let newfilename = "httrGet.txt"
