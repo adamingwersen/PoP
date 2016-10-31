@@ -25,9 +25,17 @@ let readURL url =
 let exampleLength = 25
 let html = readURL url
 
+(*
+let writeToFile input =
+    let WriteAccess = File.CreateText (filename)
+    let html = readURL url
+    WriteAccess
+*)
+
 open System.Net
 open System.IO
 File.WriteAllText(filename, html.[0..])
+    
 printfn "Downloaded from %A. \nWrote to file %A. \nFirst %d characters are: \n%A" url filename exampleLength html.[0..exampleLength]
 
 let contentOfStream = html.[0..]
@@ -50,7 +58,15 @@ let checkFile file =
 checkFile (checkExistence filename)
 
 
-let outputStream = IO.File.CreateText filename
-IO.File.OpenWrite (filename, contentOfStream)
+/// <summary> Writefile </summary>
+open System.Text.RegularExpressions
+let reg =
+    Regex @"<a href="
+
+
+
+
+                   
+
 
 
