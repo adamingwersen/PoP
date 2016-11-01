@@ -66,7 +66,6 @@ let rec readFile  (stream : StreamReader) =
 let inputStream = File.OpenText filename
 let corpus = readFile inputStream
 
-printfn "%A" corpus
 
 
 
