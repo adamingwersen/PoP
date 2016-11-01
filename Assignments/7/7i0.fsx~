@@ -1,0 +1,47 @@
+/// <summary> 7i.0 </summary>
+
+let arrayEx = [|1;2;4;9;10;9|]
+let indexValue = (int 10)
+
+open System
+
+// SafeIndexIf
+
+exception IfIndexInvalid of string
+
+let SafeIndexIf (A : 'a[]) (x : int) =
+    if x >= (Array.length A) then
+        raise (IfIndexInvalid "Index is invalid")
+    else
+        A.[x]
+        
+Console.WriteLine (SafeIndexIf arrayEx indexValue)
+
+
+// SafeIndexTry
+
+let SafeIndexTry (A : 'a[]) (x : int) =
+    try
+        A.[x]
+    with
+        _ -> failwith "Index is invalid"
+Console.WriteLine (SafeIndexTry arrayEx indexValue)
+
+
+// SafeIndexOption
+
+let SafeIndexOption (A : 'a[]) (x : int) =
+    try
+        Some(A.[x])
+    with
+        _ -> None
+
+Console.WriteLine (SafeIndexOption arrayEx indexValue)
+
+
+
+
+        
+
+    
+
