@@ -1,0 +1,150 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{program}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{eso-pic}
+\usepackage{gensymb}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{upquote}
+\usepackage{color}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+
+
+\newcommand{\BackgroundPic}{\put(-4,0){\parbox[b][\paperheight]{\paperwidth}{\centering\includegraphics[width=\paperwidth,height=\paperheight]{nat-farve.pdf}}}}
+
+\lstdefinelanguage{FSharp}
+    {morekeywords={let, new, match, with, rec, open, module, namespace, type, of, member, % 
+        and, for, while, true, false, in, do, begin, end, fun, function, return, yield, try, %
+        mutable, if, then, else, cloud, async, static, use, abstract, interface, inherit, finally},
+    otherkeywords={ let!, return!, do!, yield!, use!, var, from, select, where, order, by, None, Some},
+    keywordstyle=\color{bluekeywords},
+    sensitive=true,
+	    breaklines=true,
+    xleftmargin=\parindent,
+    tabsize=4,
+    morecomment=[l][\color{greencomments}]{///},
+    morecomment=[l][\color{greencomments}]{//},
+    morecomment=[s][\color{greencomments}]{{(*}{*)}},
+    morestring=[b]",
+    stringstyle=\color{redstrings}
+    }
+
+\lstnewenvironment{fslisting}
+    {\lstset{language=FSharp,
+                basicstyle=\ttfamily,
+                breaklines=true,
+                columns=fullflexible
+    }}
+    {}
+
+\algnewcommand\True{\textbf{true}\space}
+\algnewcommand\False{\textbf{false}\space}
+\algdef{SE}[SUBALG]{Indent}{EndIndent}{}{\algorithmicend\ }%
+\algtext*{Indent}
+\algtext*{EndIndent}
+
+\begin{document} 
+	\AddToShipoutPicture*{\BackgroundPic}
+	
+	\begin{titlepage}
+		\thispagestyle{empty}
+		\vspace*{5cm}
+		\begin{center}
+			\Huge \textbf{Programmering og Problemløsning} \\
+			\LARGE \textbf{Aflevering 7i} \\
+		\end{center}
+		\vspace*{3.5cm}
+		\begin{flushleft}
+			
+		\begin{table}[h!]
+			\begin{tabular}{lll}
+				Adam Ingwersen,& \\
+			\end{tabular}
+		\end{table}
+			
+			
+			\vspace{3mm}
+			\vspace{3mm}
+			Datalogisk  Institut\\
+			Københavns Universitet\\
+			\vspace{3mm}
+			\today\\
+			%\vspace*{0.5cm}
+			
+		\end{flushleft}
+	\end{titlepage}
+
+	\title{7i}
+	\author{AAP}
+	
+	\newpage
+
+\newpage
+
+\section{Delopgave 7i.0}
+
+\subsection{safeIndexIf}
+Funktionen er bygget såldes, at denne tager et brugerinput. Ved korrekt indicering - returneres værdien af det x'te index i arrayet A. Ved fejlforekomst - ved ugyldigt index eller ugyldigt input-type stopper kørslen af hele programmet. \\
+\\
+I den forsynede \textbf{\textit{exception}} til \textbf{\textit{safeIndexIf}}, tages der højde for fejl, hvor indekseringen er forkert og denne \textbf{\textit{exception}} præsenteres herefter for brugeren i konsol. Givet den betragtede array af længde 6, vil enhver værdi, der ikke er mellem 0 og 6 karakteriseres som invalid indeksering. I det tilfælde, hvor input er af en anden type end \textbf{\textit{integer}}, bliver brugeren præsenteret med følgende fejlmeddelelse; \textbf{"System.FormatException: Input string was not in a correct format."}. 
+\\
+Fejlmeddelelsen kunne præsenteres pænere ved at kalde funktionen med en try/with struktur fremfor bare at bruge printfn - dog bliver der i opgaveformuleringen specifikt spurgt efter en funktion, der ikke anvender try/with. 
+
+\subsection{safeIndexTry}
+Denne funktion anvender try/with strukturen til at kaste en fejl ved brug af \textbf{\textit{failwith}}. Hvis input til x er af korrekt type, men ugyldig værdi, vil fejlen \textbf{"Index is of invalid size"} returneres. Hvis ikke input x er af korrekt type vil fsharp returnere samme fejlmeddelelse som \textbf{\textit{safeIndexIf}}. For \textbf{\textit{safeIndexTry}} har jeg valgt ikke at specificere typen for inputtet x - men grundet fsharp's type-genkendelse, vil denne ikke acceptere, at andre typer end \textbf{\textit{integer}} anvendes til at indicere et array. 
+
+\subsection{safeIndexOption}
+I \textbf{\textit{safeIndexOption}} anvendes igen try/with strukturen, men nu med \textbf{\textit{option}}-typerne \textbf{\textit{Some}} og \textbf{\textit{None}} samt \textbf{\textit{Option.get}}-argumentet. Dette resulterer i, at et \textbf{\textit{integer}} returneres ved gyldigt input til x - mens \textbf{\textit{null}} returneres hvis x er out-of-bounds. \textbf{\textit{Option.get}} anvendes udelukkende idet opgaveformuleringen dikterer, at ingen af funktionerne må returnere andet end heltal. 
+
+Hvis ikke input x er af korrekt type vil fsharp returnere samme fejlmeddelelse som \textbf{\textit{safeIndexIf}}.
+
+\section{Delopgave 7i.1}
+Denne delopgave er blevet løst inkorrekt. 
+
+
+\section{Delopgave 7i.2}
+Til dette program, inviteres brugeren til at vælge et URL samt et søgekriterium. Programmet forløber som følger:
+
+\begin{enumerate}
+\item Interagér med brugeren via konsol : læs brugerinput
+\item Hent url-stream på baggrund af brugers input
+\begin{enumerate}
+\item Sikr at URL'et er validt
+\item Skriv \textbf{\textit{url}} til \textbf{\textit{string}}
+\item Skriv \textbf{\textit{string}} til tekst-fil lokalt
+\end{enumerate}
+\item Verificér at filen er blevet lavet og eksisterer
+\item Læs fil som \textbf{\textit{string}}
+\item Interagér med brugeren via konsol : læs brugerinput
+\item Udfør pattern match i indlæst fil på baggrund af brugers input
+\end{enumerate}
+
+\noindent Programmet kan potentielt set fejle efter 1. brugerinteraktion, såfremt brugeren indtaster et ugyldigt URL. I dette tilfælde kastes en fejl: \textbf{\textit{"Sitet kan ikke findes. Indtast venligst gyldig URL"}}. \\
+
+\noindent Programmet har ligeledes mulighed for at fejle efter 2. brugerinteraktion, hvis brugeren indtaster en streng der returnerer 0 matches. Denne fejl håndteres ved at definere en exception og bruge try/with med printfn, som anvist i \textbf{\textit{fsharpNotes11-12.pdf}} under \textbf{\textit{Listing 11.5}}. \newline
+
+\noindent Funktionen \textbf{\textit{countHtmlTag}} anvender namespacet: \textbf{\textit{System.Text.RegularExpressions}} for bekvemhed. Herunder funktionen \textbf{\textit{Regex.Matches}}, som både tager regular-expressions eller en simpel-tekststreng som søgekriterium. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

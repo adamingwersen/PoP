@@ -1,7 +1,7 @@
 /// <summary> 7i.0 </summary>
 /// <remarks> Opens the System namespace </remarks>
 open System
-let arrayEx = [|1;2;4;9;10;9|]
+let arrayEx = [|1;2;4;7;10;9|]
 
 printfn "Vi betragter array : %A  af længde %d \n" arrayEx arrayEx.Length
 
@@ -12,7 +12,7 @@ exception IfIndexInvalid of string
 /// <param name="x"> x is an integer, which specifies the index of the array </param>
 let SafeIndexIf (A : 'a[]) (x : int) =
     if x >= (Array.length A) then
-        raise (IfIndexInvalid "Index is invalid")
+        raise (IfIndexInvalid "Index is of invalid size")
     else
         A.[x]
 
@@ -25,11 +25,11 @@ printfn "A.[%d]:  %A" indexValue (SafeIndexIf arrayEx indexValue)
 /// <summary> SafeIndexTry : A function, which takes two inputs and evaluates using the try/with structure. Here if index is out of bounds, the runtime error is thrown using the failwith-statement. This halts the execution of proceeding code. </summary>
 /// <param name="A"> A is an Array </param>
 /// <param name="x"> x is an integer, which specifies the index of the array </param>
-let SafeIndexTry (A : 'a[]) (x : int) =
+let SafeIndexTry (A : 'a[]) x =
     try
         A.[x]
     with
-        _ -> failwith "Index is invalid"
+        _ -> failwith "Index is of invalid size"
 
 Console.WriteLine "Vælg x af type int til 'SafeIndexTry'"
 /// <remarks> Because indexValue was defined as a mutable, it can be changed by using the '<-' operator for new value assignment </remarks>

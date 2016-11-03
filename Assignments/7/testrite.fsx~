@@ -1,0 +1,47 @@
+let thisFile = "filename_7i1.txt"
+(*
+let fileWriteReplace (filename : string) =
+    try
+        let text = System.IO.File.OpenText (filename)
+        let file = text.ReadToEnd()
+        text
+    with
+        |_ -> failwith "Filen kunne ikke findes."
+
+
+let test = fileWriteReplace "filename_7i1.txt"
+printfn "%A" test
+*)
+
+open System.IO
+open System.Text.RegularExpressions
+
+
+let rec readFile (stream : StreamReader) =
+    if not(stream.EndOfStream) then
+        (stream.ReadLine ()) + (readFile stream)
+    else
+        ""
+let inputStream = File.OpenText thisFile
+let corpus = readFile inputStream
+inputStream.Close()
+
+open System.Text.RegularExpressions
+open System.IO
+let needle = "h"
+let replace = "k"
+
+let replacement = Regex.Replace(corpus, needle, replace)
+let rec writeFile (stream : StreamWriter) (text : string) =
+    match text with
+    | (text : string) -> (stream.WriteLine stream) ( writeFile text)
+    | _ -> ""
+    if not(stream.EndOfStream) then
+        (stream.WriteLine text) + (writeFile stream)
+    else
+        ""
+writeFile
+
+
+
+let fileReplace (filename : string) (needle : string) (replace : string)
