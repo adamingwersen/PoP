@@ -46,8 +46,8 @@
     }}
     {}
 
-\algnewcommand\True{\textbf{true}\space}
-\algnewcommand\False{\textbf{false}\space}
+\algnewcommand\True{\texttt{true}\space}
+\algnewcommand\False{\texttt{false}\space}
 \algdef{SE}[SUBALG]{Indent}{EndIndent}{}{\algorithmicend\ }%
 \algtext*{Indent}
 \algtext*{EndIndent}
@@ -93,23 +93,26 @@
 \section{Delopgave 7i.0}
 
 \subsection{safeIndexIf}
-Funktionen er bygget såldes, at denne tager et brugerinput. Ved korrekt indicering - returneres værdien af det x'te index i arrayet A. Ved fejlforekomst - ved ugyldigt index eller ugyldigt input-type stopper kørslen af hele programmet. \\
+Funktionen er bygget såldes, at denne tager et brugerinput. Ved korrekt indicering - returneres værdien af det x'te index i arrayet A. \\
 \\
-I den forsynede \textbf{\textit{exception}} til \textbf{\textit{safeIndexIf}}, tages der højde for fejl, hvor indekseringen er forkert og denne \textbf{\textit{exception}} præsenteres herefter for brugeren i konsol. Givet den betragtede array af længde 6, vil enhver værdi, der ikke er mellem 0 og 6 karakteriseres som invalid indeksering. I det tilfælde, hvor input er af en anden type end \textbf{\textit{integer}}, bliver brugeren præsenteret med følgende fejlmeddelelse; \textbf{"System.FormatException: Input string was not in a correct format."}. 
+Givet den betragtede array af længde 6, vil enhver værdi, der ikke er mellem 0 og 6 karakteriseres som invalid indeksering - hertil returneres default-værdien for typen array. I det tilfælde, hvor input er af en anden type end \texttt{\textit{integer}}, bliver brugeren præsenteret med følgende fejlmeddelelse; \texttt{"System.FormatException: Input string was not in a correct format."}. 
 \\
 Fejlmeddelelsen kunne præsenteres pænere ved at kalde funktionen med en try/with struktur fremfor bare at bruge printfn - dog bliver der i opgaveformuleringen specifikt spurgt efter en funktion, der ikke anvender try/with. 
 
 \subsection{safeIndexTry}
-Denne funktion anvender try/with strukturen til at kaste en fejl ved brug af \textbf{\textit{failwith}}. Hvis input til x er af korrekt type, men ugyldig værdi, vil fejlen \textbf{"Index is of invalid size"} returneres. Hvis ikke input x er af korrekt type vil fsharp returnere samme fejlmeddelelse som \textbf{\textit{safeIndexIf}}. For \textbf{\textit{safeIndexTry}} har jeg valgt ikke at specificere typen for inputtet x - men grundet fsharp's type-genkendelse, vil denne ikke acceptere, at andre typer end \textbf{\textit{integer}} anvendes til at indicere et array. 
+Denne funktion anvender try/with strukturen til at kaste en fejl ved brug af \texttt{\textit{failwith}}. Hvis input til x er af korrekt type, men ugyldig værdi, vil fejlen \texttt{"Index is of invalid size"} returneres. Hvis ikke input x er af korrekt type vil fsharp returnere samme fejlmeddelelse som \texttt{\textit{safeIndexIf}}. For \texttt{\textit{safeIndexTry}} har jeg valgt ikke at specificere typen for inputtet x - men grundet fsharp's type-genkendelse, vil denne ikke acceptere, at andre typer end \texttt{\textit{integer}} anvendes til at indicere et array. 
 
 \subsection{safeIndexOption}
-I \textbf{\textit{safeIndexOption}} anvendes igen try/with strukturen, men nu med \textbf{\textit{option}}-typerne \textbf{\textit{Some}} og \textbf{\textit{None}} samt \textbf{\textit{Option.get}}-argumentet. Dette resulterer i, at et \textbf{\textit{integer}} returneres ved gyldigt input til x - mens \textbf{\textit{null}} returneres hvis x er out-of-bounds. \textbf{\textit{Option.get}} anvendes udelukkende idet opgaveformuleringen dikterer, at ingen af funktionerne må returnere andet end heltal. 
+I \texttt{\textit{safeIndexOption}} anvendes igen try/with strukturen, men nu med \texttt{\textit{option}}-typerne \texttt{\textit{Some}} og \texttt{\textit{None}} samt \texttt{\textit{Option.get}}-argumentet. Dette resulterer i, at et \texttt{\textit{integer}} returneres ved gyldigt input til x - mens \texttt{\textit{null}} returneres hvis x er out-of-bounds. \texttt{\textit{Option.get}} anvendes udelukkende idet opgaveformuleringen dikterer, at ingen af funktionerne må returnere andet end heltal. 
 
-Hvis ikke input x er af korrekt type vil fsharp returnere samme fejlmeddelelse som \textbf{\textit{safeIndexIf}}.
+Hvis ikke input x er af korrekt type vil fsharp returnere samme fejlmeddelelse som \texttt{\textit{safeIndexIf}}.
 
 \section{Delopgave 7i.1}
-Denne delopgave er blevet løst inkorrekt. 
+Problemstillingen i denne opgave, løses ved at konstruere to hjælpefunktioner som det første. En funktion, der læser (\texttt{readFile}) og en funktion, der skriver (\texttt{writeFile}. Disse anvendes efterfølgende i \texttt{fileReplace}. Disse to funktioner anvender \texttt{streamReader}- hhv. \texttt{streamWriter}-typerne. Der kan nu læses og skrives - for at erstatte en streng med en anden streng i teksten, anvendes \texttt{Regex.Replace((text : string), (pattern : string), (replacement : string))} fra \texttt{\textit{System.Text.RegularExpressions}} name-spacet.
 
+Konstruktionen anvendt i programmet bevirker, at uanset indholdet af \texttt{filename}, \texttt{needle} og \texttt{replace}, køres programmet. I det tilfælde, hvor indholdet af tekstfilen er tom, returneres bare endnu en tom streng - og denne skrives til den i forvejen tomme tekstfil. Såfremt \texttt{needle} ikke findes i tekstfilen, erstattes intet. \texttt{replace} vil kun blive skrevet til tekstfilen, hvis \texttt{needle} findes i tekstfilen.
+
+Der er ikke anvendt eksplicit fejhåndtering - men en mulig udbygning kunne være, at prompte brugeren, hvis f.eks. ingen matches findes - eller hvis den indgående tekstfil er tom. 
 
 \section{Delopgave 7i.2}
 Til dette program, inviteres brugeren til at vælge et URL samt et søgekriterium. Programmet forløber som følger:
@@ -119,20 +122,20 @@ Til dette program, inviteres brugeren til at vælge et URL samt et søgekriteriu
 \item Hent url-stream på baggrund af brugers input
 \begin{enumerate}
 \item Sikr at URL'et er validt
-\item Skriv \textbf{\textit{url}} til \textbf{\textit{string}}
-\item Skriv \textbf{\textit{string}} til tekst-fil lokalt
+\item Skriv \texttt{\textit{url}} til \texttt{\textit{string}}
+\item Skriv \texttt{\textit{string}} til tekst-fil lokalt
 \end{enumerate}
 \item Verificér at filen er blevet lavet og eksisterer
-\item Læs fil som \textbf{\textit{string}}
+\item Læs fil som \texttt{\textit{string}}
 \item Interagér med brugeren via konsol : læs brugerinput
 \item Udfør pattern match i indlæst fil på baggrund af brugers input
 \end{enumerate}
 
-\noindent Programmet kan potentielt set fejle efter 1. brugerinteraktion, såfremt brugeren indtaster et ugyldigt URL. I dette tilfælde kastes en fejl: \textbf{\textit{"Sitet kan ikke findes. Indtast venligst gyldig URL"}}. \\
+\noindent Programmet kan potentielt set fejle efter 1. brugerinteraktion, såfremt brugeren indtaster et ugyldigt URL. I dette tilfælde kastes en fejl: \texttt{\textit{"Sitet kan ikke findes. Indtast venligst gyldig URL"}}. \\
 
-\noindent Programmet har ligeledes mulighed for at fejle efter 2. brugerinteraktion, hvis brugeren indtaster en streng der returnerer 0 matches. Denne fejl håndteres ved at definere en exception og bruge try/with med printfn, som anvist i \textbf{\textit{fsharpNotes11-12.pdf}} under \textbf{\textit{Listing 11.5}}. \newline
+\noindent Programmet har ligeledes mulighed for at fejle efter 2. brugerinteraktion, hvis brugeren indtaster en streng der returnerer 0 matches. Denne fejl håndteres ved at definere en exception og bruge try/with med printfn, som anvist i \texttt{\textit{fsharpNotes11-12.pdf}} under \texttt{\textit{Listing 11.5}}. \newline
 
-\noindent Funktionen \textbf{\textit{countHtmlTag}} anvender namespacet: \textbf{\textit{System.Text.RegularExpressions}} for bekvemhed. Herunder funktionen \textbf{\textit{Regex.Matches}}, som både tager regular-expressions eller en simpel-tekststreng som søgekriterium. 
+\noindent Funktionen \texttt{\textit{countHtmlTag}} anvender namespacet: \texttt{\textit{System.Text.RegularExpressions}} for bekvemhed. Herunder funktionen \texttt{\textit{Regex.Matches}}, som både tager regular-expressions eller en simpel-tekststreng som søgekriterium. 
 
 
 
