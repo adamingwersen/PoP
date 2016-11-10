@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.15)  10 NOV 2016 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.15)  10 NOV 2016 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**7i_GQR701.tex
-(./7i_GQR701.tex
+**8g.tex
+(./8g.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -761,8 +761,8 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)) (./7i_GQR701.aux)
-\openout1 = `7i_GQR701.aux'.
+)) (./8g.aux)
+\openout1 = `8g.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
@@ -858,74 +858,28 @@ Package gensymb Info: Using \textmu for \micro on input line 55.
 <nat-farve.pdf, id=1, 597.23125pt x 845.1575pt>
 File: nat-farve.pdf Graphic file (type pdf)
  <use nat-farve.pdf>
-Package pdftex.def Info: nat-farve.pdf used on input line 84.
+Package pdftex.def Info: nat-farve.pdf used on input line 86.
 (pdftex.def)             Requested size: 597.54874pt x 845.06516pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./nat-farve.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 98.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
-
- []
-
-
-Overfull \hbox (6.66412pt too wide) in paragraph at lines 111--112
-\T1/cmtt/m/n/10 Regex.Replace((text : string), (pattern : string), (replacement
- :
- []
-
-
-Overfull \hbox (19.27582pt too wide) in paragraph at lines 113--114
-[]\T1/cmr/m/n/10 Konstruktionen an-vendt i pro-gram-met be-virker, at uanset in
--d-holdet af \T1/cmtt/m/n/10 filename\T1/cmr/m/n/10 ,
- []
-
-[1]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-
-Overfull \hbox (50.3479pt too wide) in paragraph at lines 136--137
-\T1/cmr/m/n/10 at de-finere en ex-cep-tion og bruge try/with med printfn, som a
-n-vist i \T1/cmtt/m/it/10 fsharpNotes11-12.pdf
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-
-Overfull \hbox (29.58908pt too wide) in paragraph at lines 138--139
-\T1/cmr/m/n/10 Funktionen \T1/cmtt/m/it/10 countHtmlTag \T1/cmr/m/n/10 an-ven-d
-er names-pacet: \T1/cmtt/m/it/10 System.Text.RegularExpressions
- []
-
-[2] (./7i_GQR701.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./nat-farve.pdf>] (./8g.au
+x) ) 
 Here is how much of TeX's memory you used:
- 6412 strings out of 493029
- 83062 string characters out of 6136233
- 149540 words of memory out of 5000000
- 9822 multiletter control sequences out of 15000+600000
- 16594 words of font info for 46 fonts, out of 8000000 for 9000
+ 6382 strings out of 493029
+ 82279 string characters out of 6136233
+ 146540 words of memory out of 5000000
+ 9801 multiletter control sequences out of 15000+600000
+ 12883 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,13n,37p,610b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.e
-nc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfit1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sftt1000.pfb>
-Output written on 7i_GQR701.pdf (3 pages, 150131 bytes).
+ 38i,13n,37p,268b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texm
+f/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.p
+fb>
+Output written on 8g.pdf (1 page, 59982 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
