@@ -1,4 +1,4 @@
-let thisFile = "afile.txt"     
+let thisFile = "filename_7i1.txt"     
 
 open System
 open System.IO
@@ -43,5 +43,4 @@ let fileReplace (filename : string) (needle : string) (replace : string) =
 fileReplace thisFile "PoP" "Programmering og Problemløsning"
 Console.WriteLine "\nVi kan vende dette om - og dermed starte forfra\n"
 fileReplace thisFile "Programmering og Problemløsning" "PoP"
-
 

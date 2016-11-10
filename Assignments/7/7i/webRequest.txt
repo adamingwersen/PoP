@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie ie7" lang="da"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie ie8" lang="da"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie ie9" lang="da"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)|!(IE)]><!--><html class="no-js" lang="da"><!--<![endif]-->
+  <head>
+    <title>Nyheder om forskning og videnskab</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="apple-touch-icon" sizes="114x114" href="/profiles/videnskab/themes/custom/videnskab_theme/images/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/profiles/videnskab/themes/custom/videnskab_theme/images/apple-touch-icon-72x72.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="144x144" href="/profiles/videnskab/themes/custom/videnskab_theme/images/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" href="/profiles/videnskab/themes/custom/videnskab_theme/images/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://videnskab.dk/profiles/videnskab/themes/custom/videnskab_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link type="text/css" rel="stylesheet" href="http://videnskab.dk/sites/default/files/css/css_47kZNBXc36ZywYNxeqJGXavPYFPetoqVlAg8XETfd60.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://videnskab.dk/sites/default/files/css/css_07oZGJqIiF-VlJjJAAwVM8aoeQGWLDqwDZdoLLhhOqA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://videnskab.dk/sites/default/files/css/css_R53ePjW8fXC1jIXK44pSNrjb8tMbWTX4LIA3LVVm77M.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://videnskab.dk/sites/default/files/css/css_9Q0-Si_saIdS4Spb4XnbkyxUgfvC54AIwB41Ae_ZkAY.css" media="print" />
+    
+    <script type='text/javascript'>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+          '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+    </script>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() {googletag.defineSlot('/33147440/DFP_FRONTMEDIA_VIDENSKAB_930X180_FORSIDE', [[930,600],[930,180]], 'div-gpt-ad-1478612503-0').addService(googletag.pubads());
+googletag.defineSlot('/33147440/DFP_FRONTMEDIA_VIDENSKAB_930X180_TOP', [930,180], 'div-gpt-ad-1478612503-1').addService(googletag.pubads());
+googletag.defineSlot('/33147440/DFP_FRONTMEDIA_VIDENSKAB_160X600_LEFT', [160,600], 'div-gpt-ad-1478612503-2').addService(googletag.pubads());
+googletag.defineSlot('/33147440/DFP_FRONTMEDIA_VIDENSKAB_160X600_RIGHT', [160,600], 'div-gpt-ad-1478612503-3').addService(googletag.pubads());
+googletag.defineSlot('/33147440/DFP_FRONTMEDIA_VIDENSKAB_160X600_LEFT-STICKY', [160,600], 'div-gpt-ad-1478612503-4').addService(googletag.pubads());
+googletag.defineSlot('/33147440/DFP_FRONTMEDIA_VIDENSKAB_160X600_RIGHT-STICKY', [160,600], 'div-gpt-ad-1478612503-5').addService(googletag.pubads());
+googletag.defineSlot('/33147440/DFP_FRONTMEDIA_VIDENSKAB_320X320_MOBIL-2', [[320,100],[320,50],[300,100],[320,160],[320,80]], 'div-gpt-ad-1478612503-6').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+  </head>
+  <body class="front page-taxonomy-term" ><noscript><img src="http://videnskab.tns-gallup.dk/j0=,,,;+,cp=videnskab/videnskab+url=http://videnskab.dk/;;;" alt=""/></noscript>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WTWCDT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WTWCDT');</script>
+<!-- End Google Tag Manager -->
+        <div class="page-wrapper">
+
+      <div role="banner" class="marketing page-wrapper__header">
+      <div class="inner">
+        
+
+  
+      
+  
+  <div class="banner top" id="div-gpt-ad-1478612503-1" style="width:930px;height:180px">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478612503-1'); });
+  </script>
+</div>
+<div class="banner left" id="div-gpt-ad-1478612503-2" style="width:160px;height:600px">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478612503-2'); });
+  </script>
+</div>
+<div class="banner right" id="div-gpt-ad-1478612503-3" style="width:160px;height:600px">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478612503-3'); });
+  </script>
+</div>
+<div class="banner left sticky" id="div-gpt-ad-1478612503-4" style="width:160px;height:600px">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478612503-4'); });
+  </script>
+</div>
+<div class="banner right sticky" id="div-gpt-ad-1478612503-5" style="width:160px;height:600px">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478612503-5'); });
+  </script>
+</div>
+<div class="banner top mobile" id="div-gpt-ad-1478612503-6">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478612503-6'); });
+  </script>
+</div>
+
+  
+  
+        </div>
+      </div>
+    </divs>
+  
+      <header role="banner" class="header page-wrapper__header">
+      <div class="inner">
+        
+<div class="branding-block">
+
+  
+      
+  
+  <div id="header">
+  <div class="section clearfix">
+    <div id="logo-title">
+
+              <a href="/" title="Hjem" rel="home" id="logo"><img src="http://videnskab.dk/profiles/videnskab/themes/custom/videnskab_theme/logo.png" alt="Hjem" /></a>
+      
+      <div id="name-and-slogan">
+                              <h1 id="site-name">
+              <a href="/" title="Hjem" rel="home"><span>Videnskab.dk</span></a>
+            </h1>
+                  
+                  <div id="site-slogan"> </div>
+              </div> <!-- /name-and-slogan -->
+    </div> <!-- /logo-title -->
+
+  </div> <!-- /section -->
+</div> <!-- /header -->
+
+  
+  </div>
+
+        <input class="mobile-menu-checkbox" type="checkbox" id="menu">
+        <label class="mobile-menu-label" for="menu">Menu</label>
+        <div class="bottom-line">
+        
+<div class="main-menu">
+
+  
+      
+  
+  <ul class="menu"><li class="first"><a href="/topic/krop-sundhed" title="">Krop &amp; Sundhed</a></li>
+<li><a href="/topic/kultur-samfund" title="">Kultur &amp; Samfund</a></li>
+<li><a href="/topic/naturvidenskab" title="">Naturvidenskab</a></li>
+<li class="last"><a href="/topic/teknologi-innovation" title="">Teknologi &amp; Innovation</a></li>
+</ul>
+  
+  </div>
+
+
+
+  
+      
+  
+  <div class="search-box-header">
+  <span class="toggle-search"></span>
+  <div class="overlay">
+    <form action="/s" method="get">
+      <label for="query">Søg</label>
+      <input name="query" value="" placeholder="Indtast søgeord" />
+      <input type="submit" value="Søg">
+      <span class="close">Luk</span>
+    </form>
+  </div>
+</div>
+
+  
+  
+
+<div class="service-menu">
+
+  
+      
+  
+  <ul class="menu"><li class="first"><a href="/side/nyhedsbrev" title="">Nyhedsbrev</a></li>
+<li class="last"><a href="/om" title="">Om Videnskab.dk</a></li>
+</ul>
+  
+  </div>
+
+
+
+  
+      
+  
+  <ul class="social-media social-media--header">
+    <li class="social-media__entry">
+    <a target="_blank" class="social-media__link social-media__link--facebook" href="https://www.facebook.com/videnskabdk/?fref=ts">Facebook</a>
+  </li>
+    <li class="social-media__entry">
+    <a target="_blank" class="social-media__link social-media__link--twitter" href="https://twitter.com/videnskabdk?lang=da">Twitter</a>
+  </li>
+  </ul>
+
+  
+  
+
+<div class="selected-topics-menu">
+
+  
+      
+  
+  <ul class="menu"><li class="first"><a href="/genre/forskerzonen" title="">ForskerZonen</a></li>
+<li class="last"><a href="/topic/sporg-videnskaben" title="">Spørg Videnskaben</a></li>
+</ul>
+  
+  </div>
+
+        </div>
+      </div>
+    </header>
+  
+      <main role="main" class="main page-wrapper__body">
+      <div class="inner">
+        
+
+  
+      
+  
+  <div  class="page-wrapper frontpage frontpage--a clearfix">
+
+    <section class="frontpage-region frontpage-region--a">
+                  <div class="frontpage-region--0 inner region two_thirds">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/naturvidenskab/derfor-har-du-ikke-hoert-om-cop22">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139587" class="file file-image file-image-jpeg">
+  <picture  title="Jubel på COP21 i Paris  i 2015, da aftalen faldt på plads. Nu skal der handling bag ordene på COP22 i Marrakech. (Foto: Arnaud Bouissou/Flickr)">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/jubel_i_paris.jpg?itok=j6DKU5Ij&amp;timestamp=1478606183 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/jubel_i_paris.jpg?itok=FXBPIkms&amp;timestamp=1478606183 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/jubel_i_paris.jpg?itok=NIbMnScB&amp;timestamp=1478606183 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/jubel_i_paris.jpg?itok=NIbMnScB&amp;timestamp=1478606183" alt="COP22 marrakech marokko klimatopmøde FN" title="Jubel på COP21 i Paris  i 2015, da aftalen faldt på plads. Nu skal der handling bag ordene på COP22 i Marrakech. (Foto: Arnaud Bouissou/Flickr)" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-klima"><a href="/topic/klima">Klima</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/derfor-har-du-ikke-hoert-om-cop22">Derfor har du ikke hørt om COP22</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--1 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/krop-sundhed/fed-ost-kan-sagtens-hoere-hjemme-i-en-sund-kost">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-138449" class="file file-image file-image-jpeg">
+  <picture  title="Ost">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/shutterstock_145092925.jpg?itok=Vq2KX2oh&amp;timestamp=1475150812 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/shutterstock_145092925.jpg?itok=DWq5EaJT&amp;timestamp=1475150812 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_145092925.jpg?itok=WpbsvBva&amp;timestamp=1475150812 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_145092925.jpg?itok=WpbsvBva&amp;timestamp=1475150812" alt="cheese fed ost sund" title="Ost" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-mad-og-ernaering"><a href="/topic/mad-ernaering">Mad &amp; Ernæring</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/krop-sundhed/fed-ost-kan-sagtens-hoere-hjemme-i-en-sund-kost">Fed ost kan sagtens høre hjemme i en sund kost</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--2 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a article-content--collaborator">
+  <div class="field article-content__collaborator field-field-collaborator">
+      <div class="field-label">I samarbejde med :&nbsp;</div>
+    <div class="field-items">
+          <div class="field-item even">The Conversation</div>
+      </div>
+</div>
+    <a class="article-content__image-link" href="/kultur-samfund/valg-i-usa-uanset-udfaldet-faar-verden-en-rutsjebanetur">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139592" class="file file-image file-image-jpeg">
+  <picture  title="Det mest sandsynlige - men langt fra sikre - resultat er, at Hillary Clinton vinder. Men det faktum, at dette resultat selv på dette sene tidspunkt ikke kan tages for givet, afspejler, hvor forstyrret og splittet det amerikanske politiske system er.">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/shutterstock_373772581_0.jpg?itok=GSQeDGss&amp;timestamp=1478540289 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/shutterstock_373772581_0.jpg?itok=8wRYIQAB&amp;timestamp=1478540289 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_373772581_0.jpg?itok=66q08cGg&amp;timestamp=1478540289 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_373772581_0.jpg?itok=66q08cGg&amp;timestamp=1478540289" alt="præsidentvalg Donald Trump Hillary Clinton stemme vælgere udenrigspolitik politik meninger valg krig Irak Syrien Australien" title="Det mest sandsynlige - men langt fra sikre - resultat er, at Hillary Clinton vinder. Men det faktum, at dette resultat selv på dette sene tidspunkt ikke kan tages for givet, afspejler, hvor forstyrret og splittet det amerikanske politiske system er." />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-forskerzonen"><a href="/genre/forskerzonen">ForskerZonen</a></div>
+          
+      <div class="field-item odd field-item-praesidentvalg-i-usa"><a href="/topic/praesidentvalg-i-usa">Præsidentvalg i USA</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/valg-i-usa-uanset-udfaldet-faar-verden-en-rutsjebanetur">Valg i USA: Uanset udfaldet får verden en rutsjebanetur</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--3 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/naturvidenskab/spaadom-forvaerret-saa-meget-stiger-havet">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139561" class="file file-image file-image-jpeg">
+  <picture  title="Meget står på spil for regeringerne verden over. De har forpligtet sig til at reducere drivhusgas-emissionerne ved midten af dette århundrede. ">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/shutterstock_187306805_2.jpg?itok=rUzD-c5c&amp;timestamp=1478353114 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/shutterstock_187306805_2.jpg?itok=ROiR0n-B&amp;timestamp=1478353114 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_187306805_2.jpg?itok=p02US_Fy&amp;timestamp=1478353114 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_187306805_2.jpg?itok=p02US_Fy&amp;timestamp=1478353114" alt="havniveau klimaaftale klimamål 2 grader havniveaustigninger global opvarmning afsmeltning vandstand risiko konsekvenser estimater forskning temperaturer sårbar udsat " title="Meget står på spil for regeringerne verden over. De har forpligtet sig til at reducere drivhusgas-emissionerne ved midten af dette århundrede. " />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-havet"><a href="/topic/havet">Havet</a></div>
+          
+      <div class="field-item odd field-item-klima"><a href="/topic/klima">Klima</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/spaadom-forvaerret-saa-meget-stiger-havet">Spådom forværret: Så meget stiger havet</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--4 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/kultur-samfund/det-mellem-os-omtalte-telegram-boer-forsvinde">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139435" class="file file-image file-image-jpeg">
+  <picture  title="Ingen fremmedsprog på telefonen og redigering og bortskafning af telegrammer. 1. verdenskrig udløste massiv overvågning og indførsel af streng censur, påviser forsker, der har gennemtrawlet Telegrafvæsenets arkiver.">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/kystcentralen_1915_2.jpg?itok=h8mj4X5w&amp;timestamp=1478106162 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/kystcentralen_1915_2.jpg?itok=2HWNEzAO&amp;timestamp=1478106162 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/kystcentralen_1915_2.jpg?itok=upDSQa81&amp;timestamp=1478106162 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/kystcentralen_1915_2.jpg?itok=upDSQa81&amp;timestamp=1478106162" alt="Censur overvågning 1. verdenskrig telefonaflytning breve telelinjer telegraf" title="Ingen fremmedsprog på telefonen og redigering og bortskafning af telegrammer. 1. verdenskrig udløste massiv overvågning og indførsel af streng censur, påviser forsker, der har gennemtrawlet Telegrafvæsenets arkiver." />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-grundforskning"><a href="/topic/grundforskning">Grundforskning</a></div>
+          
+      <div class="field-item odd field-item-historie"><a href="/topic/historie">Historie</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/det-mellem-os-omtalte-telegram-boer-forsvinde">»Det mellem os omtalte Telegram bør forsvinde ...«</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--5 inner region full">
+          
+<div class="latest-articles">
+
+  
+        <h2 class="pane-title">Seneste Spørg Videnskaben</h2>
+    
+  
+  <div class="view view-latest-articles view-id-latest_articles view-display-id-panel_pane_1 view-dom-id-82f1ee2189475fca5944be4f49e78f40">
+        
+  
+  
+      <section>
+  
+  
+    <article  class="node node-article article-content--list article-content--list--a">
+      <a class="article-content__image-link" href="/kultur-samfund/kan-vi-klare-os-uden-politikere">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139464" class="file file-image file-image-jpeg">
+  <img src="http://videnskab.dk/sites/default/files/styles/list_a_teaser/public/article_media/folketingssalen.yu2f2777.fotograf_anders_hviid.jpg?itok=gbv9IAaK" width="80" height="80" alt="Folketinget politikere teknokrati demokrati" title="En tom folketingssal. Ingen politikere. Er det en skræmmende eller befriende tanke? (Foto: Anders Hviid) " /></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/kan-vi-klare-os-uden-politikere">Kan vi klare os uden politikere?</a></div>
+      </div>
+</div>
+
+</article>
+
+  
+    <article  class="node node-article article-content--list article-content--list--a">
+      <a class="article-content__image-link" href="/sporg-videnskaben/hvorfor-sidder-det-yderste-blad-tilbage-pa-traeet">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-138600" class="file file-image file-image-jpeg">
+  <img src="http://videnskab.dk/sites/default/files/styles/list_a_teaser/public/article_media/yderste_blad_sidde_tilbage_paa_grenen.jpg?itok=Cfsdd9Cm" width="80" height="80" alt="Yderste blad sidde tilbage træet grene efterår" title="Træerne skaber smukt efterår i skoven, fordi de trækker næringsstoffer fra bladene ind i træet. (Foto: Shutterstock)" /></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/sporg-videnskaben/hvorfor-sidder-det-yderste-blad-tilbage-pa-traeet">Hvorfor sidder det yderste blad tilbage på træet?</a></div>
+      </div>
+</div>
+
+</article>
+
+  
+    <article  class="node node-article article-content--list article-content--list--a">
+      <a class="article-content__image-link" href="/sporg-videnskaben/skal-man-skrue-ned-radiatoren-nar-man-lufter-ud">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139095" class="file file-image file-image-jpeg">
+  <img src="http://videnskab.dk/sites/default/files/styles/list_a_teaser/public/article_media/shutterstock_410638303_2.jpg?itok=jA6aEsx6" width="80" height="80" alt="Radiator slukkes udluftning økonomi" title="Giver det mening at skrue ned for radiatorerne, når vinduet står åbent, eller er det bedre at have dem indstillet på en jævn temperatur hele tiden? (Foto: Shutterstock)" /></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/sporg-videnskaben/skal-man-skrue-ned-radiatoren-nar-man-lufter-ud">Skal man skrue ned for radiatoren, når man lufter ud?</a></div>
+      </div>
+</div>
+
+</article>
+
+  
+    <article  class="node node-article article-content--list article-content--list--a">
+      <a class="article-content__image-link" href="/kultur-samfund/hvad-er-grundforskning">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-138818" class="file file-image file-image-jpeg">
+  <img src="http://videnskab.dk/sites/default/files/styles/list_a_teaser/public/article_media/hvad_er_grundforskning.jpg?itok=-YIBeOf1" width="80" height="80" alt="Hvad er grundforskning, Danmarks Grundforskingsfond, Poul Nissen, Søren-Peter Olesen, anvendt forskning, formål" title="Vidste du, at alle kan lave grundforskning? Hen over efteråret tager Videnskab.dk dig med helt ind i maskinrummet af den etablerede grundforskning: Hvilke projekter bliver lavet, hvem står bag og hvad har vi historisk set fået ud af grundforskning? (Foto:" /></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/hvad-er-grundforskning">Hvad er grundforskning?</a></div>
+      </div>
+</div>
+
+</article>
+
+  
+    <article  class="node node-article article-content--list article-content--list--a">
+      <a class="article-content__image-link" href="/sporg-videnskaben/kan-dode-mennesker-bruges-som-bloddonorer">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139094" class="file file-image file-image-jpeg">
+  <img src="http://videnskab.dk/sites/default/files/styles/list_a_teaser/public/article_media/shutterstock_265555550.jpg?itok=Jsn3giw2" width="80" height="80" alt="Bloddonation donere blod efter død post mortem" title="Mange donerer blod, mens de er i live, men kan man donere en sidste gang efter sin dødsdag? (Foto: Shutterstock)" /></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/sporg-videnskaben/kan-dode-mennesker-bruges-som-bloddonorer">Kan døde mennesker bruges som bloddonorer?</a></div>
+      </div>
+</div>
+
+</article>
+
+  
+    <article  class="node node-article article-content--list article-content--list--a">
+      <a class="article-content__image-link" href="/naturvidenskab/hvor-ofte-havde-vi-sex-med-neandertalerne">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139514" class="file file-image file-image-jpeg">
+  <img src="http://videnskab.dk/sites/default/files/styles/list_a_teaser/public/article_media/sex_med_neandertalere.jpg?itok=mr9TGK9o" width="80" height="80" alt="neandertalere sex med mennesker" title="Moderne mennesker og neandertalere har dyrket sex mange gange i fortiden, og der er også kommet børn ud af det. Derfor har alle ikke-afrikanere neadertaler-DNA i sig. (Foto: Elisabeth Daynes)" /></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/hvor-ofte-havde-vi-sex-med-neandertalerne">Hvor ofte havde vi sex med neandertalerne?</a></div>
+      </div>
+</div>
+
+</article>
+
+  </section>
+  
+  
+  
+  
+  
+  </div>
+
+  
+  </div>
+
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--b">
+                  <div class="frontpage-region--6 inner region full">
+          
+
+  
+      
+  
+  
+    <article  class="node node-other-media">
+
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics other-media__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-andre-skriver"><a href="/topic/andre-skriver">Andre skriver</a></div>
+          
+      <div class="field-item odd field-item-sex-og-parforhold"><a href="/topic/sex-parforhold">Sex &amp; Parforhold</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title other-media__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/krop-sundhed/her-er-hemmeligheden-bag-det-gode-sexliv">Her er hemmeligheden bag det gode sexliv</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--c">
+                  <div class="frontpage-region--7 inner region half">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/kultur-samfund/staten-udfoerte-massiv-censur-under-1-verdenskrig">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139428" class="file file-image file-image-jpeg">
+  <picture  title="Telegrammer blev overvåget, redigeret og stoppet, og telefonsamtaler aflyttet og afbrudt, da Danmark genindførte censuren i 1914. (Foto: Enigma)">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/a_hovedtelegrafstationen.jpg?itok=lNuuAKCq&amp;timestamp=1478103513 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/a_hovedtelegrafstationen.jpg?itok=-b6afHhL&amp;timestamp=1478103513 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/a_hovedtelegrafstationen.jpg?itok=PNSAEhzW&amp;timestamp=1478103513 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/a_hovedtelegrafstationen.jpg?itok=PNSAEhzW&amp;timestamp=1478103513" alt="Censur overvågning 1. verdenskrig telefonaflytning breve " title="Telegrammer blev overvåget, redigeret og stoppet, og telefonsamtaler aflyttet og afbrudt, da Danmark genindførte censuren i 1914. (Foto: Enigma)" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-grundforskning"><a href="/topic/grundforskning">Grundforskning</a></div>
+          
+      <div class="field-item odd field-item-historie"><a href="/topic/historie">Historie</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/staten-udfoerte-massiv-censur-under-1-verdenskrig">Staten udførte massiv censur under 1. Verdenskrig</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--8 inner region half">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/naturvidenskab/forskere-slaar-monsterregnormen-dave-ihjel-0">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139580" class="file file-image file-image-png">
+  <picture  title="Regnormen Dave fra England er afgået ved døden">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/justicefordave.png?itok=WHY5RRoj&amp;timestamp=1478520697 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/justicefordave.png?itok=VrTh2Vzq&amp;timestamp=1478520697 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/justicefordave.png?itok=oNtU6Ram&amp;timestamp=1478520697 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/justicefordave.png?itok=oNtU6Ram&amp;timestamp=1478520697" alt="regnormen dave" title="Regnormen Dave fra England er afgået ved døden" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-dyr-og-planter"><a href="/topic/dyr-planter">Dyr &amp; planter</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/forskere-slaar-monsterregnormen-dave-ihjel-0">Forskere slår monsterregnormen Dave ihjel  </a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--9 inner region full">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--b">
+
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-politik"><a href="/topic/politik">Politik</a></div>
+          
+      <div class="field-item odd field-item-spoerg-videnskaben"><a href="/topic/sporg-videnskaben">Spørg Videnskaben</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/kan-vi-klare-os-uden-politikere">Kan vi klare os uden politikere?</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-text article-content__teaser-text">
+    <div class="field-items">
+          <div class="field-item even">For de fleste er det svært at forestille sig et samfund uden politikere. Eller er det? En frustreret læser har skrevet til Spørg Videnskaben og spurgt, om vi kan klare os uden politikerne.</div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--d">
+                  <div class="frontpage-region--10 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/naturvidenskab/forskere-finder-stamceller-fra-300-millioner-aar-gamle-planter">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-135983" class="file file-image file-image-jpeg">
+  <picture  title="De ældste forstenede rester af en aktivt voksende meristem har fået navnet Radix Carbonica. (Foto: Alexander Hetherington/Department of Plant Sciences, University of Oxford)">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/2340.jpg?itok=mNSkAdCl&amp;timestamp=1477043841 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/2340.jpg?itok=LiuUhkyV&amp;timestamp=1477043841 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/2340.jpg?itok=GQL6tvwe&amp;timestamp=1477043841 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/2340.jpg?itok=GQL6tvwe&amp;timestamp=1477043841" alt="meristem radix carbonica" title="De ældste forstenede rester af en aktivt voksende meristem har fået navnet Radix Carbonica. (Foto: Alexander Hetherington/Department of Plant Sciences, University of Oxford)" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-dyr-og-planter"><a href="/topic/dyr-planter">Dyr &amp; planter</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/forskere-finder-stamceller-fra-300-millioner-aar-gamle-planter">Forskere finder stamceller fra 300 millioner år gamle planter</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--11 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/sporg-videnskaben/hvorfor-sidder-det-yderste-blad-tilbage-pa-traeet">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-138600--2" class="file file-image file-image-jpeg">
+  <picture  title="Træerne skaber smukt efterår i skoven, fordi de trækker næringsstoffer fra bladene ind i træet. (Foto: Shutterstock)">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/yderste_blad_sidde_tilbage_paa_grenen.jpg?itok=CQsW9jmY&amp;timestamp=1475651828 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/yderste_blad_sidde_tilbage_paa_grenen.jpg?itok=wHeeoZOm&amp;timestamp=1475651828 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/yderste_blad_sidde_tilbage_paa_grenen.jpg?itok=gNnyb4wt&amp;timestamp=1475651828 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/yderste_blad_sidde_tilbage_paa_grenen.jpg?itok=gNnyb4wt&amp;timestamp=1475651828" alt="Yderste blad sidde tilbage træet grene efterår" title="Træerne skaber smukt efterår i skoven, fordi de trækker næringsstoffer fra bladene ind i træet. (Foto: Shutterstock)" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-dyr-og-planter"><a href="/topic/dyr-planter">Dyr &amp; planter</a></div>
+          
+      <div class="field-item odd field-item-spoerg-videnskaben"><a href="/topic/sporg-videnskaben">Spørg Videnskaben</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/sporg-videnskaben/hvorfor-sidder-det-yderste-blad-tilbage-pa-traeet">Hvorfor sidder det yderste blad tilbage på træet?</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--12 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/naturvidenskab/edderkoppen-kan-stemme-sit-spind-som-et-instrument">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-138959" class="file file-image file-image-jpeg">
+  <picture  title="Edderkoppen kan justere konstruktionen af sit spind, sådan at den ved, om det er farlige fjender eller lækker aftensmad, der er landet i dens baghave, når spindet bevæger sig. (Foto: Shutterstock)">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/shutterstock_86108302.jpg?itok=kkVsRWk4&amp;timestamp=1476793623 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/shutterstock_86108302.jpg?itok=OSg0WxTL&amp;timestamp=1476793623 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_86108302.jpg?itok=Q9GBs2_6&amp;timestamp=1476793623 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_86108302.jpg?itok=Q9GBs2_6&amp;timestamp=1476793623" alt="edderkop spind hjulspind vibrationer" title="Edderkoppen kan justere konstruktionen af sit spind, sådan at den ved, om det er farlige fjender eller lækker aftensmad, der er landet i dens baghave, når spindet bevæger sig. (Foto: Shutterstock)" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-dyr-og-planter"><a href="/topic/dyr-planter">Dyr &amp; planter</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/edderkoppen-kan-stemme-sit-spind-som-et-instrument">Edderkoppen kan stemme sit spind som et instrument</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--13 inner region full">
+          
+
+  
+      
+  
+  <div class="field field-field-highlighted-topic">
+    <div class="field-items">
+          <div class="field-item even"><article  class="taxonomy-term vocabulary-topic">
+    <a class="article-content__image-link" href="/topic/praesidentvalg-i-usa">
+    
+    <div class="field field-field-topic-media topic-page__image">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139235" class="file file-image file-image-jpeg">
+  <picture >
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/topic_media/praesidentvalg-usa-_final.jpg?itok=_KUunIGd&amp;timestamp=1477552923 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/topic_media/praesidentvalg-usa-_final.jpg?itok=BuMG1sFI&amp;timestamp=1477552923 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/topic_media/praesidentvalg-usa-_final.jpg?itok=Wh2yjb7d&amp;timestamp=1477552923 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/topic_media/praesidentvalg-usa-_final.jpg?itok=Wh2yjb7d&amp;timestamp=1477552923" alt="praesidentvalg_valg_usa_2016_amerika_tema_clinton_trump_hillary_donald" title="" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-name-field topic-page__title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/topic/praesidentvalg-i-usa">Præsidentvalg i USA</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+</div>
+      </div>
+</div>
+
+  
+  
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--e">
+                  <div class="frontpage-region--14 inner region half">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a article-content--collaborator">
+  <div class="field article-content__collaborator field-field-collaborator">
+      <div class="field-label">I samarbejde med :&nbsp;</div>
+    <div class="field-items">
+          <div class="field-item even">The Conversation</div>
+      </div>
+</div>
+    <a class="article-content__image-link" href="/kultur-samfund/forsker-trump-opfoerer-sig-som-en-diktator">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139563" class="file file-image file-image-jpeg">
+  <picture  title="Trumps seneste udtalelser om valgsvindel, mediernes fordrejede dækning af valget, og at han ikke vil acceptere valgresultatet, har fået mange til at overveje, om det i virkeligheden ikke er Donald Trump selv, der udgør en trussel mod demokratiet">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/shutterstock_385504729.jpg?itok=cqox8zAm&amp;timestamp=1478428126 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/shutterstock_385504729.jpg?itok=VdcW8Rl6&amp;timestamp=1478428126 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_385504729.jpg?itok=qiQrtzl1&amp;timestamp=1478428126 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_385504729.jpg?itok=qiQrtzl1&amp;timestamp=1478428126" alt="Donald Trump præsidentvalg politik USA amerikanere fordomme fordomsfuldhed etnicitet etnisk spansk-amerikanere præsidentkandidat diktator autokrat spytslikkere rådgivere narcissisme messiansk status paranoid paranoia" title="Trumps seneste udtalelser om valgsvindel, mediernes fordrejede dækning af valget, og at han ikke vil acceptere valgresultatet, har fået mange til at overveje, om det i virkeligheden ikke er Donald Trump selv, der udgør en trussel mod demokratiet" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-forskerzonen"><a href="/genre/forskerzonen">ForskerZonen</a></div>
+          
+      <div class="field-item odd field-item-praesidentvalg-i-usa"><a href="/topic/praesidentvalg-i-usa">Præsidentvalg i USA</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/forsker-trump-opfoerer-sig-som-en-diktator">Forsker: Trump opfører sig som en diktator</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--15 inner region half">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a article-content--collaborator">
+  <div class="field article-content__collaborator field-field-collaborator">
+      <div class="field-label">I samarbejde med :&nbsp;</div>
+    <div class="field-items">
+          <div class="field-item even">The Conversation</div>
+      </div>
+</div>
+    <a class="article-content__image-link" href="/kultur-samfund/valgsvindel-i-usa-fire-praesidentvalg-med-omdiskuterede-valgresultater">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139501" class="file file-image file-image-jpeg">
+  <picture  title="»»Jeg vil holde jer hen i spænding,« lød det fra Donald Trump under den sidste debat">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/shutterstock_283689917_2.jpg?itok=f7TUPPus&amp;timestamp=1478193554 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/shutterstock_283689917_2.jpg?itok=OdN4iUS9&amp;timestamp=1478193554 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_283689917_2.jpg?itok=2GLQcbsg&amp;timestamp=1478193554 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/shutterstock_283689917_2.jpg?itok=2GLQcbsg&amp;timestamp=1478193554" alt="Politik USA historie præsidentvalg Donald Trump valgsvindel stemmeret vælgere " title="»»Jeg vil holde jer hen i spænding,« lød det fra Donald Trump under den sidste debat" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-forskerzonen"><a href="/genre/forskerzonen">ForskerZonen</a></div>
+          
+      <div class="field-item odd field-item-praesidentvalg-i-usa"><a href="/topic/praesidentvalg-i-usa">Præsidentvalg i USA</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/valgsvindel-i-usa-fire-praesidentvalg-med-omdiskuterede-valgresultater">Valgsvindel i USA? Fire præsidentvalg med omdiskuterede valgresultater</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--16 inner region full">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/kultur-samfund/hvad-er-grundforskning">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-138818--2" class="file file-image file-image-jpeg">
+  <picture  title="Vidste du, at alle kan lave grundforskning? Hen over efteråret tager Videnskab.dk dig med helt ind i maskinrummet af den etablerede grundforskning: Hvilke projekter bliver lavet, hvem står bag og hvad har vi historisk set fået ud af grundforskning? (Foto:">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/hvad_er_grundforskning.jpg?itok=ajsrD_pK&amp;timestamp=1476346365 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/hvad_er_grundforskning.jpg?itok=vzE8unFz&amp;timestamp=1476346365 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/hvad_er_grundforskning.jpg?itok=WLaslQPZ&amp;timestamp=1476346365 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/hvad_er_grundforskning.jpg?itok=WLaslQPZ&amp;timestamp=1476346365" alt="Hvad er grundforskning, Danmarks Grundforskingsfond, Poul Nissen, Søren-Peter Olesen, anvendt forskning, formål" title="Vidste du, at alle kan lave grundforskning? Hen over efteråret tager Videnskab.dk dig med helt ind i maskinrummet af den etablerede grundforskning: Hvilke projekter bliver lavet, hvem står bag og hvad har vi historisk set fået ud af grundforskning? (Foto:" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-grundforskning"><a href="/topic/grundforskning">Grundforskning</a></div>
+          
+      <div class="field-item odd field-item-videnskabsteori"><a href="/topic/videnskabsteori">Videnskabsteori</a></div>
+          
+      <div class="field-item even field-item-spoerg-videnskaben"><a href="/topic/sporg-videnskaben">Spørg Videnskaben</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/hvad-er-grundforskning">Hvad er grundforskning?</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--f">
+                  <div class="frontpage-region--17 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-other-media">
+
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics other-media__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-andre-skriver"><a href="/topic/andre-skriver">Andre skriver</a></div>
+          
+      <div class="field-item odd field-item-dyr-og-planter"><a href="/topic/dyr-planter">Dyr &amp; planter</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title other-media__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/aber-skal-ogsaa-bruge-laesebriller">Aber skal også bruge læsebriller</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--18 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-other-media">
+
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics other-media__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-andre-skriver"><a href="/topic/andre-skriver">Andre skriver</a></div>
+          
+      <div class="field-item odd field-item-dyr-og-planter"><a href="/topic/dyr-planter">Dyr &amp; planter</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title other-media__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/nyt-liv-opstod-hurtigere-sydpaa-efter-draeber-asteroide">Nyt liv opstod hurtigere sydpå efter dræber-asteroide</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+                        <div class="frontpage-region--19 inner region one_third">
+          
+
+  
+      
+  
+  
+    <article  class="node node-other-media">
+
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics other-media__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-andre-skriver"><a href="/topic/andre-skriver">Andre skriver</a></div>
+          
+      <div class="field-item odd field-item-dyr-og-planter"><a href="/topic/dyr-planter">Dyr &amp; planter</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title other-media__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/naturvidenskab/ulovligt-elfenben-stammer-fra-nylige-elefantdrab">Ulovligt elfenben stammer fra nylige elefantdrab </a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--banner_a">
+                  <div class="frontpage-region--20 inner region full">
+          
+
+  
+      
+  
+  <div class="banner full-width front" id="div-gpt-ad-1478612503-0">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478612503-0'); });
+  </script>
+</div>
+
+  
+  
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--g">
+                  <div class="frontpage-region--21 inner region half">
+          
+<div class="latest-other-media">
+
+  
+        <h2 class="pane-title">Seneste Andre Skriver</h2>
+    
+  
+  <div class="view view-latest-other-media view-id-latest_other_media view-display-id-panel_pane_1 view-dom-id-1e351e9fbaa6735c52302599b9e0c94c">
+        
+  
+  
+      <section>
+  
+      
+    <div class="row">
+        
+          <div class="field field-field-publication-date">8/11</div>    
+          <div class="field other-media__teaser-title"><a href="/krop-sundhed/her-er-hemmeligheden-bag-det-gode-sexliv">Her er hemmeligheden bag det gode sexliv</a></div>      </div>
+
+      
+    <div class="row">
+        
+          <div class="field field-field-publication-date">8/11</div>    
+          <div class="field other-media__teaser-title"><a href="/naturvidenskab/aber-skal-ogsaa-bruge-laesebriller">Aber skal også bruge læsebriller</a></div>      </div>
+
+      
+    <div class="row">
+        
+          <div class="field field-field-publication-date">8/11</div>    
+          <div class="field other-media__teaser-title"><a href="/naturvidenskab/nyt-liv-opstod-hurtigere-sydpaa-efter-draeber-asteroide">Nyt liv opstod hurtigere sydpå efter dræber-asteroide</a></div>      </div>
+
+      
+    <div class="row">
+        
+          <div class="field field-field-publication-date">8/11</div>    
+          <div class="field other-media__teaser-title"><a href="/naturvidenskab/ulovligt-elfenben-stammer-fra-nylige-elefantdrab">Ulovligt elfenben stammer fra nylige elefantdrab </a></div>      </div>
+
+      
+    <div class="row">
+        
+          <div class="field field-field-publication-date">7/11</div>    
+          <div class="field other-media__teaser-title"><a href="/krop-sundhed/omraade-i-hjernen-afgoer-om-placebo-virker-eller-ej">Område i hjernen afgør, om placebo virker eller ej </a></div>      </div>
+
+  </section>
+  
+  
+  
+  
+  
+  </div>
+
+  
+  </div>
+
+        </div>
+                        <div class="frontpage-region--22 inner region half">
+          
+
+  
+      
+  
+  
+    <article  class="node node-article article-content--teaser article-content--teaser--a">
+      <a class="article-content__image-link" href="/kultur-samfund/videnskabdk-gaar-i-koedet-paa-grundforskning">
+    
+    <div class="field field-field-teaser-media">
+    <div class="field-items">
+          <div class="field-item even"><div id="file-139307" class="file file-image file-image-jpeg">
+  <picture  title="Får vi som samfund, hvad vi kan forvente af vores grundforskningsmilliarder, eller bliver vi fodret med fin snak, som vi bør være mere skeptiske overfor? Videnskab.dk går i kødet på grundforskningen. (Foto: Shutterstock)">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_desktop/public/article_media/vagthund.jpg?itok=7cGJi3hj&amp;timestamp=1477906237 1x" media="(min-width: 980px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_tablet/public/article_media/vagthund.jpg?itok=PvpYEURB&amp;timestamp=1477906237 1x" media="(min-width: 760px)" />
+<source srcset="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/vagthund.jpg?itok=Hf0Cp5nq&amp;timestamp=1477906237 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://videnskab.dk/sites/default/files/styles/article_teasers_mobile/public/article_media/vagthund.jpg?itok=Hf0Cp5nq&amp;timestamp=1477906237" alt="Grundforskning, Videnskab.dk" title="Får vi som samfund, hvad vi kan forvente af vores grundforskningsmilliarder, eller bliver vi fodret med fin snak, som vi bør være mere skeptiske overfor? Videnskab.dk går i kødet på grundforskningen. (Foto: Shutterstock)" />
+</picture></div>
+</div>
+      </div>
+</div>
+  </a>
+  
+  <div class="article-content__sideline-wrapper">
+    <div class="field field-field-topics article-content__topics">
+    <div class="field-items">
+          
+      <div class="field-item even field-item-grundforskning"><a href="/topic/grundforskning">Grundforskning</a></div>
+      </div>
+</div>
+<div class="field field-field-teaser-title article-content__teaser-title">
+    <div class="field-items">
+          <div class="field-item even"><a href="/kultur-samfund/videnskabdk-gaar-i-koedet-paa-grundforskning">Videnskab.dk går i kødet på grundforskning</a></div>
+      </div>
+</div>
+  </div>
+
+</article>
+
+  
+  
+        </div>
+            </section>
+    <section class="frontpage-region frontpage-region--footer">
+                  <div class="frontpage-region--23 inner region full">
+          
+
+  
+      
+  
+  <a href="/s?query=&amp;sort_by=field_publication_date&amp;sort_order=DESC">Se flere artikler</a>
+  
+  
+        </div>
+            </section>
+  
+</div>
+
+  
+  
+      </div>
+    </main>
+  
+      <footer role="contentinfo" class="footer page-wrapper__footer">
+      <div class="inner top">
+        
+
+  
+      
+  
+  <div class="newsletter-signup">
+	<h2 class="pane-title">Tilmeld dig vores nyhedsbrev</h2>
+  <p>Tilmeld dig vores gratis nyhedsbrev. Det udkommer alle hverdage samt søndage med seneste nyt fra videnskabens verden.</p>
+
+  <div class="newsletter-form">
+
+		<div id="mc_embed_signup">
+		<form action="//videnskab.us2.list-manage.com/subscribe/post?u=e3c3e7ba63a293af2fbe0e734&amp;id=d2f5c83eb4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		    <div id="mc_embed_signup_scroll">
+			
+		<div class="mc-field-group">
+			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-mail">
+		</div>
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e3c3e7ba63a293af2fbe0e734_d2f5c83eb4" tabindex="-1" value=""></div>
+		    <div class="clear"><input type="submit" value="Tilmeld" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		    </div>
+		</form>
+		</div>
+
+  </div>
+</div>
+
+  
+  
+      </div>
+      <div class="inner main">
+        
+<div class="footer-menu column">
+
+  
+        <h2 class="pane-title">Om Videnskab.dk</h2>
+    
+  
+  <ul class="menu"><li class="first"><a href="/side/redaktionelt-program" title="">Redaktionelt program</a></li>
+<li><a href="/side/redaktionen" title="">Find medarbejder</a></li>
+<li><a href="/side/partnere" title="">Partnere</a></li>
+<li><a href="/side/rettigheder" title="">Rettigheder</a></li>
+<li><a href="/side/privatlivspolitik" title="">Privatlivspolitik</a></li>
+<li><a href="/side/vilkaar-for-kommentarer-paa-videnskabdk" title="">Vilkår for kommentarer</a></li>
+<li><a href="http://videnskab.dk/side/nyhedsbrev" title="Nyhedsbrev">Nyhedsbrev</a></li>
+<li><a href="http://videnskab.dk/side/kurser-i-kommunikation-og-formidling" title="Kurser i kommunikation og formidling">Kurser</a></li>
+<li class="last"><a href="http://videnskab.dk/side/annoncer-paa-videnskabdk" title="Annoncér på Videnskab.dk">Annoncer</a></li>
+</ul>
+  
+  </div>
+
+
+
+  
+      
+  
+  <div class="contact-block column">
+  <h2 class="pane-title">Kontakt</h2>
+  <p>
+    Ansvarshavende chefredaktør:<br/><br/>
+    Vibeke Hjortlund<br/>
+    <a href="mailto:redaktion@videnskab.dk" target="_top"><u>redaktion@videnskab.dk</u></a><br/><br/>
+  </p>
+  <p>
+    Carl Jacobsens Vej 16, <br/>
+    opg. 16, 2. sal<br/>
+    2500 Valby<br/>
+  </p>
+  <p>Tlf:  70 70 17 88</p>
+</div>
+  
+  
+      </div>
+      <div class="inner bottom">
+        
+
+  
+      
+  
+  <ul class="social-media social-media--footer">
+    <li class="social-media__entry">
+    <a target="_blank" class="social-media__link social-media__link--facebook" href="https://www.facebook.com/videnskabdk/?fref=ts">Facebook</a>
+  </li>
+    <li class="social-media__entry">
+    <a target="_blank" class="social-media__link social-media__link--twitter" href="https://twitter.com/videnskabdk?lang=da">Twitter</a>
+  </li>
+  </ul>
+
+  
+  
+        <div class="to-top-wrapper">
+          <span class="scroll-up">To Top</span>
+        </div>
+      </div>
+    </footer>
+  
+</div>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/profiles/videnskab/modules/contrib/jquery_update/replace/jquery/1.8/jquery.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://videnskab.dk/sites/default/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://videnskab.dk/sites/default/files/js/js_G1_QLfpB6vYOIIU9US87pvr1yix_l4g5OlNcL1s45Pc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gallup_s = 'videnskab'; var gallup_cp = 'videnskab'; var gallup_spring = '/profiles/videnskab/modules/custom/videnskab_shared/js/spring.js';
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var springq = springq || []; springq.push({ s: gallup_s, cp: gallup_cp, url: document.location.href});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://videnskab.dk/sites/default/files/js/js_RpXLsN0wVZAMMDBqANhtH2Fv7VkMp4w-BSXPKOBPnQ0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"videnskab_theme","theme_token":"etr1yjeRP8ZWPRuiM6AfZD4uxyG51UTgJ1AjcqmN-aM","js":{"profiles\/videnskab\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"profiles\/videnskab\/modules\/contrib\/picture\/picture.min.js":1,"0":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.3\/jquery.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"2":1,"public:\/\/languages\/da_BpLwXHO0aBXgv9zt8gaDdKI5-xHKg-CWks8QXqc3myw.js":1,"3":1,"4":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/js\/respond.js":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/js\/script.js":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/js\/ios-orientationchange-fix.js":1,"profiles\/videnskab\/themes\/custom\/videnskab_theme\/dist\/bundle.js":1,"profiles\/videnskab\/themes\/custom\/videnskab_theme\/dist\/photoswipe.min.js":1,"profiles\/videnskab\/themes\/custom\/videnskab_theme\/dist\/photoswipe-ui-default.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/videnskab\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/videnskab\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"profiles\/videnskab\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/user\/user.css":1,"profiles\/videnskab\/modules\/contrib\/views\/css\/views.css":1,"profiles\/videnskab\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/videnskab\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/videnskab\/themes\/custom\/videnskab_theme\/templates\/layouts\/topic_frontpage_a\/topic-frontpage-a.css":1,"modules\/taxonomy\/taxonomy.css":1,"profiles\/videnskab\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/comment-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/comment.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/field-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/field.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/file.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/filter.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/image-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/image.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/locale-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/locale.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/menu.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/node.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/search-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/search.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.base-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.base.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.maintenance.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.menus-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.menus.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.messages-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.messages.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.theme-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/system.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/taxonomy.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/user-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/user.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/addressfield-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/addressfield.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/entity.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/field_group-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/field_group.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/horizontal-tabs-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/horizontal-tabs.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/multipage-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/multipage.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/link-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/link.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/panels.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/panels_dnd.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/panels_page.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/panelizer-ipe.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/pm_existing_pages.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/strongarm.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/views-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/views.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_cart.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_checkout.base-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_checkout.base.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_checkout.theme-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_checkout.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_customer.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_line_item.theme-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_line_item.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_order.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_payment.theme-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_payment.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_price.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_product.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_tax.theme-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_tax.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_checkout_progress.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_add_to_cart_confirmation-rtl.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_add_to_cart_confirmation.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/your_price.theme.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_flat_rate.css":1,"profiles\/videnskab\/themes\/global\/adapt_basetheme\/commerce_search_api.css":1,"profiles\/videnskab\/themes\/custom\/videnskab_theme\/dist\/bundle.css":1,"profiles\/videnskab\/themes\/custom\/videnskab_theme\/dist\/print.css":1}}});
+//--><!]]>
+</script>
+    <script type="text/javascript" src="http://videnskab.dk/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() { var scr = document.createElement('script'); scr.type = 'text/javascript'; scr.async = true; scr.src = gallup_spring; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(scr, s);})();
+//--><!]]>
+</script>
+  </body>
+</html>
