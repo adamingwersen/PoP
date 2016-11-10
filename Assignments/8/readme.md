@@ -25,7 +25,7 @@ Lad guess = {Red, Blue, Black, White}
 
 Lad code = {Red, Black, Blue, White}
 
-```{.sh}
+```{shell}
 Validate(guess, code) =
 	if guess == code --> {Black, Black, Black, Black} --> "Win!"
 	else do
