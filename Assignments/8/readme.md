@@ -19,10 +19,13 @@ Vi skal konstruere følgende funktioner til spillet Mastermind:
 	<li><h5> guess </h5></li>
 
 <h4> Validate </h4>
-Skriver pseudokode:
+Skriver pseudokode: 
+
 Lad guess = {Red, Blue, Black, White}
+
 Lad code = {Red, Black, Blue, White}
 
+```shell
 Validate(guess, code) =
 	if guess == code --> {Black, Black, Black, Black} --> "Win!"
 	else do
@@ -32,6 +35,7 @@ Validate(guess, code) =
 				z = count.if.TRUEcode[i] == guess[i])
 		x = x - z
 	printfn "Black : %A, White : %A" z x
+```
 
 
 Mhp. BB-testing: Kunne man afprøve validate mod 2*random(makeCode) over x iterationer?
