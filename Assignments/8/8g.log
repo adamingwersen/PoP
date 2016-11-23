@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.15)  10 NOV 2016 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.15)  15 NOV 2016 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,24 +862,25 @@ Package pdftex.def Info: nat-farve.pdf used on input line 86.
 (pdftex.def)             Requested size: 597.54874pt x 845.06516pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./nat-farve.pdf>] (./8g.au
-x) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./nat-farve.pdf>] [1] (./8
+g.aux) ) 
 Here is how much of TeX's memory you used:
- 6382 strings out of 493029
- 82279 string characters out of 6136233
- 146540 words of memory out of 5000000
- 9801 multiletter control sequences out of 15000+600000
- 12883 words of font info for 40 fonts, out of 8000000 for 9000
+ 6389 strings out of 493029
+ 82354 string characters out of 6136233
+ 147540 words of memory out of 5000000
+ 9805 multiletter control sequences out of 15000+600000
+ 15202 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,13n,37p,268b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texm
-f/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.p
-fb>
-Output written on 8g.pdf (1 page, 59982 bytes).
+ 38i,13n,37p,649b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/
+texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx17
+28.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on 8g.pdf (2 pages, 91400 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
