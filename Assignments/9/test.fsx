@@ -9,10 +9,6 @@ type Car(efficiency : float,  model : string) = class
  
  member x.addGas(value) = gas <- gas + value
  member x.gasLeft(gas) = gas
- member x.drive(distance) = function
-  match vehicle.gasLeft with
-  | 0 -> failwith "Shiet!"
-  | _ -> gas <- gas - (distance/vehicle.Efficiency)
   
 end
 
