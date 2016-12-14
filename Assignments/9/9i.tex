@@ -1,0 +1,143 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{program}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{eso-pic}
+\usepackage{gensymb}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{upquote}
+\usepackage{color}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+
+
+\newcommand{\BackgroundPic}{\put(-4,0){\parbox[b][\paperheight]{\paperwidth}{\centering\includegraphics[width=\paperwidth,height=\paperheight]{nat-farve.pdf}}}}
+
+\lstdefinelanguage{FSharp}
+    {morekeywords={let, new, match, with, rec, open, module, namespace, type, of, member, % 
+        and, for, while, true, false, in, do, begin, end, fun, function, return, yield, try, %
+        mutable, if, then, else, cloud, async, static, use, abstract, interface, inherit, finally},
+    otherkeywords={ let!, return!, do!, yield!, use!, var, from, select, where, order, by, None, Some},
+    keywordstyle=\color{bluekeywords},
+    sensitive=true,
+	    breaklines=true,
+    xleftmargin=\parindent,
+    tabsize=4,
+    morecomment=[l][\color{greencomments}]{///},
+    morecomment=[l][\color{greencomments}]{//},
+    morecomment=[s][\color{greencomments}]{{(*}{*)}},
+    morestring=[b]",
+    stringstyle=\color{redstrings}
+    }
+
+\lstnewenvironment{fslisting}
+    {\lstset{language=FSharp,
+                basicstyle=\ttfamily,
+                breaklines=true,
+                columns=fullflexible
+    }}
+    {}
+
+\algnewcommand\True{\texttt{true}\space}
+\algnewcommand\False{\texttt{false}\space}
+\algdef{SE}[SUBALG]{Indent}{EndIndent}{}{\algorithmicend\ }%
+\algtext*{Indent}
+\algtext*{EndIndent}
+
+\begin{document} 
+	\AddToShipoutPicture*{\BackgroundPic}
+	
+	\begin{titlepage}
+		\thispagestyle{empty}
+		\vspace*{5cm}
+		\begin{center}
+			\Huge \textbf{Programmering og Problemløsning} \\
+			\LARGE \textbf{Aflevering 9i - Objekt Orienteret Programmering} \\
+		\end{center}
+		\vspace*{3.5cm}
+		\begin{flushleft}
+			
+		\begin{table}[h!]
+			\begin{tabular}{lll}
+				Adam Ingwersen \\		
+			\end{tabular}
+		\end{table}
+			
+			
+			\vspace{3mm}
+			\vspace{3mm}
+			Datalogisk  Institut\\
+			Københavns Universitet\\
+			\vspace{3mm}
+			\today\\
+			%\vspace*{0.5cm}
+			
+		\end{flushleft}
+	\end{titlepage}
+
+	\title{9i}
+	\author{Adam}
+	
+	\newpage
+
+\newpage
+\section{}
+
+Formålet med denne øvelsesopgave er at anvende OOP i FSharp. Hertil bør opgaven tage udgangspunkt i et eksempel, hvor et objekt - en bil - skal have forskellige karakteristika og egenskaber. Bilen betragtes som en klasse i FSharp og kreeres ved brug af \texttt{type}, hvis karakteristika defineres a priori for populeringen af et f.eks. bil-objekt. Enhver klasse skal have karakteristika - et såkaldt \texttt{member}. Et \texttt{member} kan være en variabel, funktion mv., som udelukkende er defineret i konteksten af selve klassen.
+
+\subsection{En bil som klasse}
+
+Bil-klassen skal have en række data-attributter. Herunder \texttt{yearOfModel, make, speed}. Disse attributer kan skrives eksplicit ind i type-definitionens konstruktor. Her vælges det at bruge \texttt{yearOfModel} samt \texttt{make} i konstruktoren - ydermere tilføjes konstruktorne \texttt{efficiency} og \texttt{fuelCap}, da disse bliver brugbare senere. Klassen Car har således 4 konstruktorer. \newline
+Dertil skal konstruktorerne kunne anvendes udenfor klasse-definitionen og visse af dem skal interagere. Hertil tilføjes konstruktorerne som \texttt{members}. \texttt{Car} bør ligeledes have en række egeneskaber - også kaldet metoder. Bilen skal kunne accelerere samt bremse.
+
+\subsubsection{accelerate}
+
+Accelerations-metoden bør forøge bilens hastighed med 5.0, hver gang den kaldes. Metoden bør også reducere gas-beholdningen for bilen, hver gang den kaldes. Ydermere, bør metoden ikke være i stand til at resultere i, at bilen får en negativ gas-beholdning. Derfor introduceres et pattern-match på gas-variablen, således at hvis den næste acceleration ville have resulteret i en negativ gas-beholding; smid exception. 
+
+Her er funktionen der dekrementerer gas-variablen forholdsvist arbitrært bestemt. Mængden af gas der skal fratrækkes ved hver acceleration stiger jo højere fart bilen befinder sig i samt det overordnede brændstofsforbrug (\texttt{efficiency}). 
+
+\subsubsection{brake}
+
+Bremse-metoden skal formindske bilens hastighed med udgangspunkt i den nuværende \texttt{speed}. For hver gang denne metode kaldes, skal hastigheden formindskes med 5.0. Metoden bruger samme arbitrære funktion for reduktion af gas-beholdningen, men eftersom \texttt{brake} reducerer hastigheden, er gas-forbruget for hvert kald ligeledes aftagende i \texttt{brake}-metoden. Hvis bilens nuværende hastighed er 0.0, er det umiddelbart ikke muligt, at bremse yderligere - derfor promptes brugeren med nedenstående besked.   
+
+Et oplagt problem med denne metodes konstruktion er, at den afhænger af, at \texttt{speed} altid er et heltal. Hvis det skulle ønskes, at inkrementerne for \texttt{accelerate} og \texttt{brake} skulle afhænge af f.eks. bilens vægt, ville der hurtigt opstå problemer, da pattern-matche't ikke nødvendigvis ville blive mødt. Der er indført yderligere en undtagelse; da det var et kriterie, at \texttt{brake} skulle formindske \texttt{gas} ved hvert kald, måtte der indføres en undtagelse, hvis der ikke er mere benzin tilbage til at bremse med.  
+
+\subsubsection{getSpeed og getGas}
+
+Disse returnerer simpelthen bare til den umiddelbare værdi i \texttt{speed} hhv. \texttt{gas}. Disse anvendes i sektionen nedenfor.
+
+\subsection{Instantiering}
+For at bruge klasser, anvendes begrebet instantiering. Forud for instantiering, defineres en to funktioner, der begge printer; bilens fart samt bilens fart og gas-beholdning. Print-funktionerne returnerer ligeledes bilens \texttt{make} og \texttt{yearOfModel}.
+
+For at instantiere klassen, defineres en bil med en række karakteristika, der opfylder type-definitionerne i konstruktorerne for \texttt{Car}, som f.eks:
+
+\begin{figure}[H]
+\lstset{language=FSharp}
+\begin{lstlisting}
+let aCar = new Car(2016, "VW Up!, 1.0 TDI", 16.9, 35.0)
+\end{lstlisting}
+\centering
+\caption{Instantiér klasse}
+\label{fig:my_label}
+\end{figure}
+
+Således haves et af mange mulige objekter; en VW Up! fra 2016, der kører 16.9 Km/l ved bykørsel og har en tank-kapacitet på 35.0 liter. Nu kan metoderne, der blev konstrueret i forrige sektion anvendes.\newline
+For simplicitetens skyld anvendes et for-loop til at kalde både accelerate, brake og dertilhørende print-funktion 5 gange.
+
+\subsection{Testing}
+I .fsx-filen er der udført testing fra linje 82-97. Tests er blevet konstrueret, således at \texttt{accelerate} og \texttt{brake} bliver udsat for grænsetilfælde ifht. gas-beholdningen. Udfordringen har her været, at undgå scenarier, hvor beholdningen antager negativ værdi. De undtagelser, der er anvendt i metoderne for \texttt{acclerate} samt \texttt{brake} tager højde for netop dette. 
+
+\subsection{Diskussion og konklusion}
+Trods mange af koncepterne i OOP er nye - er mange af de syntaktiske elementer i FSharp-sproget bibeholdt, og den hidtidige træning i sproget har givet gode forudsætninger for at gennemføre øvelsesopgaven. \newline
+Opgaven kunne på visse områder have været løst mere elegant; eksempelvist kunne man have konstrueret en brugerinteraktion, der tillader brugeren at definere et Car-objekt og bestemme, hvordan dette skulle opføre sig. Ligeldes ifht. testing, ville dette have givet bedre forudsætninger for at afprøve ufordsete scenarier. \newline
+Afslutningsvist kan det siges, at de umiddelbare fejl, man kunne begå ved denne opgave er blevet rettet og i det mindste italesat. Det kunne i en mere avanceret udgave være spændende at opbygge en højere grad af kompleksitet for Car-objektet, således at vægt, dækbredede, gearskift og brændstofsforbrug ville blive inkoorporeret iht. at beregne gas-tankens beholdning ved acceleration og deceleration. 
+
+\end{document}
