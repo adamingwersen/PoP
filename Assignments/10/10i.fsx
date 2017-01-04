@@ -25,33 +25,39 @@ type Carnivore(animal: char, foodIntake:float, currentSpeed:float, maxSpeed:floa
  override this.specieSpeed() = base.specieSpeed()*0.08
 *)
 
+[<AbstractClass>]
 type Animal(weight:float, maxSpeed: float) = 
- 
  let rand = System.Random()  
- 
+
+ let mutable speed = 0.0
+ let mutable food = 0.0
+
  let mutable foodPercentage = (float (rand.Next(0, 100)))
+ let mutable weight = (float (rand.Next(70, 300)))
  
- member this.weight() = (float (rand.Next(70, 300)))
+ member this.setSpeed() = speed <-((foodPercentage/100.0)*maxSpeed)
+ 
+ abstract member foodNeeded: unit -> unit
+ member this.foodNeeded() = this.food <- ((this.food)*(this.maxSpeed/100.0))
 
- member this.currentSpeed() =
-  foodPercentage*maxSpeed
+ member this.getSpeed = speed
+ member this.getFood = food
 
- member this.foodNeeded() = maxSpeed*0.5
-
-(*type Carnivore(maxSpeed: float) =
+type Carnivore(maxSpeed: float) =
  inherit Animal(maxSpeed: float)
 
- override this.foodNeeded() = weight*0.08
+ override this.foodNeeded() = this.food <- (this.weight*0.08)
  
 type Herbivore(maxSpeed: float) =
  inherit Animal(maxSpeed: float)
 
- override this.foodNeeded() = weight*0.4
+ override this.foodNeeded() = this.food <- (this.weight*0.4)
 
-*)
 let testAnimal = new Animal(0.0, 50.0)
-printfn "%A %A" testAnimal.foodNeeded testAnimal.currentSpeed
-printfn "%A" testAnimal.foodNeeded
+testAnimal.setSpeed()
+testAnimal.foodNeeded()
+printfn "%A" testAnimal.getSpeed
+printfn "%A" testAnimal.getFood
 (*
 let testCheetah = new Carnivore(100.0)
 printfn "%A %A" testCheetah.foodNeeded testCheetah.currentSpeed
