@@ -1,0 +1,207 @@
+ \documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{program}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{eso-pic}
+\usepackage{gensymb}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{upquote}
+\usepackage{color}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+
+
+\newcommand{\BackgroundPic}{\put(-4,0){\parbox[b][\paperheight]{\paperwidth}{\centering\includegraphics[width=\paperwidth,height=\paperheight]{nat-farve.pdf}}}}
+
+\lstdefinelanguage{FSharp}
+    {morekeywords={let, new, match, with, rec, open, module, namespace, type, of, member, % 
+        and, for, while, true, false, in, do, begin, end, fun, function, return, yield, try, %
+        mutable, if, then, else, cloud, async, static, use, abstract, interface, inherit, finally, default, override},
+    otherkeywords={ let!, return!, do!, yield!, use!, var, from, select, where, order, by, None, Some},
+    keywordstyle=\color{bluekeywords},
+    sensitive=true,
+	    breaklines=true,
+    xleftmargin=\parindent,
+    tabsize=4,
+    morecomment=[l][\color{greencomments}]{///},
+    morecomment=[l][\color{greencomments}]{//},
+    morecomment=[s][\color{greencomments}]{{(*}{*)}},
+    morestring=[b]",
+    stringstyle=\color{redstrings}
+    }
+
+\lstnewenvironment{fslisting}
+    {\lstset{language=FSharp,
+                basicstyle=\ttfamily,
+                breaklines=true,
+                columns=fullflexible
+    }}
+    {}
+
+\algnewcommand\True{\texttt{true}\space}
+\algnewcommand\False{\texttt{false}\space}
+\algdef{SE}[SUBALG]{Indent}{EndIndent}{}{\algorithmicend\ }%
+\algtext*{Indent}
+\algtext*{EndIndent}
+
+\begin{document} 
+	\AddToShipoutPicture*{\BackgroundPic}
+	
+	\begin{titlepage}
+		\thispagestyle{empty}
+		\vspace*{5cm}
+		\begin{center}
+			\Huge \textbf{Programmering og Problemløsning} \\
+			\LARGE \textbf{Aflevering 10g - The Animal Race} \\
+		\end{center}
+		\vspace*{3.5cm}
+		\begin{flushleft}
+			
+		\begin{table}[h!]
+			\begin{tabular}{lll}
+				Adam Ingwersen,& \\
+				Aske Fjellerup,& \\
+				Peter Friborg\\
+			\end{tabular}
+		\end{table}
+			
+			
+			\vspace{3mm}
+			\vspace{3mm}
+			Datalogisk  Institut\\
+			Københavns Universitet\\
+			\vspace{3mm}
+			\today\\
+			%\vspace*{0.5cm}
+			
+		\end{flushleft}
+	\end{titlepage}
+
+	\title{10g}
+	\author{AAP}
+	
+	\newpage
+
+\newpage
+\section{Introduktion}
+I denne opgave stiftes der bekendskab med nedarvning i klasser og overskrivning af metoder. 
+
+\section{10g.0}
+Der startes med at opføres et UML-diagram, der giver et overblik over følgende opgave. Diagrammet skal have en \texttt{base class}, der tager to argumenter som \texttt{constructor}: \texttt{Animal(weight, maxspeed}. Der skal være to \texttt{derived} klasser: \texttt{Herbivore(weight, maxspeed)} \& \texttt{Carnivore(weight, maxspeed)}.\\De skal begge have to forskellige afarter af \texttt{Hunger()}, der beskriver hvor meget mad der skal spises iforhold til deres vægt. 
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{UML.pdf}
+    \centering
+    \caption{UML-diagram over Animal og dens børn: Herbivore og Carnivore}
+    \label{fig:my_label}
+\end{figure}
+
+\subsection{Animal}
+Der laves her en klasse udfra ovenstående \texttt{baseclass}: \texttt{Animal}. \\
+Der startes med at defineres alle attributer i klassen animal: this.Food skal gøres overridable, da det skal kunne ændres hvor meget hvad hvert dyr skal spise efter om det er et kød eller planteædende dyr.
+\begin{figure}[H]
+\lstset{language=FSharp}  
+\begin{lstlisting}
+  member this.Weight = Weight
+  member this.MaxSp  = MaxSp
+  member this.CurSp  = speed
+  abstract member Food: float
+  default this.Food   = food
+\end{lstlisting}
+    \centering
+    \caption{Attributer i Animal}
+    \label{fig:my_label}
+\end{figure}
+Der skal også laves metoder tilsvarende til UML-diagrammet. 
+Disse skal den skal kunne arbejde med attributterne. \\
+Den ene metode, \texttt{Hunger()}, skal laves som en \texttt{abstract member}, da den skal overskrives i underklasserne.\\
+Koden vil være som følger:
+\begin{figure}[H]
+\lstset{language=FSharp}  
+\begin{lstlisting}
+  abstract member Hunger: unit-> unit
+  default this.Hunger() =
+    food  <- (Weight/2.0)
+  member this.Eat Food =
+    speed <- ((Food/this.Food)*this.MaxSp)
+  member this.Run =
+    let temp = (( float(RNG.Next (1,101)) ) / 100.0 )*this.Food
+    this.Eat temp
+    printfn "The animal eats %A kg and run for %A hours" temp (int(10000.0/this.CurSp))
+\end{lstlisting}
+    \centering
+    \caption{Metoder i Animal}
+    \label{fig:my_label}
+\end{figure}
+Det ses at metoden \texttt{Hunger()} er en abstrakt metode, og den kan altså overskrives i \texttt{Carnivore} og \texttt{Herbivore}. 
+\subsection{Carnivore \& Herbivore}
+Disse to underklasser skal arve alle ikke private \texttt{attributes} og \texttt{methods}. Dette skrives i koden:
+\begin{figure}[H]
+\lstset{language=FSharp}  
+\begin{lstlisting}
+  inherit Animal(Weight,MaxSp)
+\end{lstlisting}
+    \centering
+    \caption{Nedarvning fra Animal}
+    \label{fig:my_label}
+\end{figure}
+Nedarvningen kan dog ikke ændre på de mutable værdier der findes i \texttt{baseclass}, så derfor må der laves nogle værdier i begge tilfælde af \texttt{derived class}.
+\begin{figure}[H]
+\lstset{language=FSharp}  
+\begin{lstlisting}
+  let mutable food = 0.0
+  let temp = Weight
+\end{lstlisting}
+    \centering
+    \caption{Tilføjning af værdier til underklasserne}
+    \label{fig:my_label}
+\end{figure}\newpage
+Der skal også overskrives en \texttt{attribute} og en \texttt{method}, og dette gøres udfra følgende:
+\begin{figure}[H]
+\lstset{language=FSharp}  
+\begin{lstlisting}
+  override this.Food = food
+  override this.Hunger() =
+    food <- (temp*0.08)
+\end{lstlisting}
+    \centering
+    \caption{Her sker vores overskrivninger.}
+    \label{fig:my_label}
+\end{figure}
+Ovenstående eksempel af overskrivning er fra \texttt{Carnivore}, det ses at den skal spise 8\% af sin vægt. Hvor \texttt{Herbivore}, skal spise 40\%.
+
+\subsection{Test af program}
+Programmet testes ved at der laves 3 opjecter (cheetah, antelope og Wilderbeast) som kører metoden \texttt{Run}. Dette sker 3 gange hvor efter dyret med den bedste tid vinder. \texttt{Run} er en metode der ud fra et tilfældigt procent vil køre de 2 metoder der fra opløget og derefter beregn og printer hvor lang tid det vil tage dyret at rejse 10km.
+\\
+\\
+\textbf{Første gennemløb}
+\\
+\texttt{Cheetah}: 89 procent, der spises 3.56 kg og løbes 98 timer\\
+\texttt{Antelope}: 94 procent, der spises 18.8 kg og løbes 111 timer\\
+\texttt{Wilderbeast}: 92 procent, der spises 73.6 kg og løbes 135 timer
+\\
+\\
+\textbf{Andet gennemløb}
+\\
+\texttt{Cheetah}: 38 procent, der spises 1.52 kg og løbes 230 timer\\
+\texttt{Antelope}: 77 procent, der spises 15.4 kg og løbes 136 timer\\
+\texttt{Wilderbeast}: 5 procent, der spises 4.0 kg og løbes 2500 timer
+\\
+\\
+\textbf{Tredje gennemløb}
+\\
+\texttt{Cheetah}: 66 procent, der spises 2.64 kg og løbes 132 timer\\
+\texttt{Antelope}: 88 procent, der spises 17.6 kg og løbes 119 timer\\
+\texttt{Wilderbeast}: 68 procent, der spises 54.4 kg og løbes 183 timer
+\\
+\\
+Resultatet er at dyret med det bedste gennemsnit er Antelope.
+\end{document}
+
