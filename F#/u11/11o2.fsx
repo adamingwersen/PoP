@@ -1,4 +1,4 @@
-type Item(name: string, price: float, qty: int) = 
+tyItem(name: string, price: float, qty: int) = 
  let mutable qty = qty
  member this.reduceQty() = 
          qty <- qty - 1
