@@ -33,3 +33,13 @@ let readParseWrite (path: string) (name: string) =
 /// <summary> Execute the function with sequential pairs of paths and filenames</summary>
 for x = 0 to ((List.length names - 1)) do
  readParseWrite paths.[x] names.[x]
+(*
+let readConstants (path: string) =
+ let corpus = File.ReadAllText(path)
+ let regexpr = @"(?<=Volumetric mean radius=\s|Mean radius, km\t=\s).*?(?=[\+-])"
+ let out = Regex.Match(corpus, regexpr)
+ printfn "Match length: %A || Match: %A" (String.length (out.ToString())) (out.ToString())
+
+printfn "%A" paths.[1]
+readConstants paths.[1]
+*)
