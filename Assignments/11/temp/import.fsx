@@ -25,7 +25,7 @@ open System.Text.RegularExpressions
 /// <param = "name"> The read filename - as in path </param>
 let readParseWrite (path: string) (name: string) =
  let corpus = File.ReadAllText(path)
- let regexpr = @"(?<=SOE).*?(?=[\$$EOE])"
+ let regexpr = @"(?<=2457387.500000000).*?(?=[\$$EOE])"
  let out = Regex.Match(corpus, regexpr)
  File.WriteAllText(Path.Combine(basePath, (name + "_clean" + ".txt")), (out.ToString()))
  printfn "File Length :%A || Match Length: %A || Written to: %A" (String.length corpus) (String.length (out.ToString())) (name + "_clean" + ".txt")
