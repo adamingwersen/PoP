@@ -20,6 +20,16 @@ let readLines (aPath: string) = seq {
     while not stream.EndOfStream do
         yield stream.ReadLine ()
 }
-let Earth = readLines(paths.[0]) |> Seq.skip 1 |> Seq.map parser
+let Earth = Seq.toList (readLines(paths.[0]) |> Seq.skip 1 |> Seq.map parser)
 printfn "%A" Earth
 
+let mutable dates = [||]
+for i=0 to (Earth.Length-1) do
+ dates <- [|(Earth.[i].[0])|] |> Array.append dates
+printfn "%A" dates
+(*
+let mutable dates = [||]
+for date in Earth do
+ dates <- Earth.[date]
+printfn "%A" dates
+*)
