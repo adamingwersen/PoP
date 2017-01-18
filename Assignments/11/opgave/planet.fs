@@ -1,20 +1,14 @@
 module planet
 open vectorClass
 
-
-
 open System.Windows.Forms
 open System.Drawing
+let gmSun = 0.002959122082322128
 
-
-
-let gmSun = 0.02959122082322128
-
-
-type Planet(name: string, radius: float, rSol:float, long:float, rSol1:float, long1:float, timeFac:float, color: Color) = class
-  let startPos = new Vector (cos(long) * rSol , sin(long) * rSol) + Vector(400.0, 600.0)
+type Planet(name: string, radius: float, rSol:float, long:float, rSol1:float, long1:float, timeFac, color: Color) = class
+  let startPos = new Vector (cos(long) * rSol , sin(long) * rSol)
   do printfn "%A" startPos
-  let mutable currentPos = new Vector (cos(long1) * rSol1 , sin(long1) * rSol1) + Vector(400.0, 600.0)
+  let mutable currentPos = new Vector (cos(long1) * rSol1 , sin(long1) * rSol1)
   do printfn "%A" currentPos
   let mutable vt = currentPos - startPos
   let mutable points = Array.map (fun (a : float) ->
@@ -25,7 +19,7 @@ type Planet(name: string, radius: float, rSol:float, long:float, rSol1:float, lo
   let mutable comparison = [||]
   member this.GetName = name
   member this.GetRadius = radius
-  
+
   member this.RunOrbit() =
     orbit <- Array.append orbit ([|(currentPos).ToPoint()|])
     AT <- ((currentPos * ( gmSun / ( disToSun ** 3.0)))).turn()
@@ -34,12 +28,10 @@ type Planet(name: string, radius: float, rSol:float, long:float, rSol1:float, lo
     disToSun <- (currentPos.dis())
     comparison <- Array.append comparison [|currentPos|]
 
-  member this.GetComp  = comparison
+  member this.GetComp = comparison
   member this.Pen = new Pen (color)
   member this.P = Array.map (fun (a) ->
          Point(int(currentPos.x + fst a), int(snd a + currentPos.y))) points
   member this.Tegn = Array.append orbit this.P
   member this.Draw (e:PaintEventArgs)= e.Graphics.DrawCurve (this.Pen, this.Tegn)
 end
-
-
