@@ -13,8 +13,8 @@ for name in names do
 let parser(corpus) = 
  let regexpr = @"[ |\t]+"
  let split = Regex.Split(corpus, regexpr)
- let time, hecllat, hecllon, r, rdot = split.[0], split.[1], split.[2], split.[3], split.[4]
- [|float time; float hecllat; float hecllon; float r; float rdot|]
+ let time, hecllon, hecllat, r, rdot = split.[0], split.[1], split.[2], split.[3], split.[4]
+ [|float time; float hecllon; float hecllat; float r; float rdot|]
 let readLines (aPath: string) = seq {
     use stream = new StreamReader (aPath)
     while not stream.EndOfStream do
