@@ -4,22 +4,20 @@ open System.Drawing
 let noBins = 13
 let xOffset = 25
 let yOffset = 45
-let scales = 2
-let yScale = float(175*scales)
-
-
 let coinPic = Image.fromFile "coins.jpg"
 let grayCoinPic = Image.toGray coinPic
 
 let toX, toY = Image.histogram grayCoinPic noBins
 printfn "x: %A, y: %A" toX toY
-let xZero = xOffset + int(toX.[0])+noBins
 
 type column = Point []
 let mutable columnList = [] : column List
 let mutable yMax = 0.0
 let makeColumnList(xList: float [], yList: int [], bins: int, scale: int) =
+ let yScale = float(175*scale)
  yMax <- float(Array.max toY)
+ 
+ 
  for i in [0 .. bins] do
   if i = 0 then
    let temp = [| Point (25+(int)xList.[i]+bins,int(yScale)+yOffset);
@@ -29,25 +27,21 @@ let makeColumnList(xList: float [], yList: int [], bins: int, scale: int) =
                  Point (25+(int)xList.[i]+bins,yOffset+int(yScale))|]
    columnList <- temp :: columnList 
   else 
-   let temp = [| Point (25+(int xList.[i-1])*scale+255/bins,yOffset+ int(yScale));
+   let temp2 = [| Point (25+(int xList.[i-1])*scale+255/bins,yOffset+ int(yScale));
                  Point (25+(int xList.[i-1])*scale+255/bins,yOffset+ int(yScale) - int(yScale*float(float(yList.[i])/(yMax))));
                  Point (25+(int xList.[i])*scale+255/bins,yOffset+ int(yScale) - int(yScale*float(float(yList.[i])/(yMax))));
                  Point (25+(int xList.[i])*scale + 255/bins,yOffset+ int(yScale));
                  Point (25+(int xList.[i-1])*scale+255/bins,yOffset+ int(yScale))|]
-   columnList <- temp :: columnList
-
-let mutable yAxis = [] : column List
-let yCoord = [| Point (xZero, yOffset); Point (xZero, yOffset + int(yScale))|]  
-printfn "%A" yCoord
-yAxis <- yCoord :: yAxis
+   columnList <- temp2 :: columnList
+ printfn "%A" columnList
+ printfn "%A %A" yList.[0] (float(yList.[0])/yMax)
 
 let drawColumns(evnt: PaintEventArgs) = 
  let pen = new Pen (Color.Black)
  for col in columnList do
   evnt.Graphics.DrawLines(pen, col)
- for pkt in yAxis do
-  evnt.Graphics.DrawLines(pen, pkt)
 
+let scales = 2
 makeColumnList(toX, toY, noBins, scales)
 
 let wForm = new Form()
