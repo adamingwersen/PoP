@@ -30,7 +30,8 @@ for i=0 to jpgPath.Length-1 do
 
 /// <remarks> Allow user to choose a file from the folder </remarks>
 Console.WriteLine "Tast navnet på den fil, du øsnker at visualisere, undlad .jpg:"
-let mutable (jpgInput: string) = string (Console.ReadLine()) + ".jpg" 
+let mutable (jpgIn: string) = string (Console.ReadLine()) 
+let mutable (jpgInput: string) = jpgIn + ".jpg"
 
 /// <remarks> Generate title for the bitmap to be shown. </remarks>
 let histTitle = "Gråtone-Histogram : " + jpgInput
@@ -57,6 +58,11 @@ let thePic = Image.fromFile jpgInput
 
 /// <remarks> Convert the image to a graytone image </remarks>
 let grayPic = Image.toGray thePic 
+
+/// <remarks> Write file for use in report </remarks>
+let colPic = Image.toColor grayPic
+let jpgOutput = Path.Combine(Environment.CurrentDirectory, (jpgIn + "_gray" + ".jpg"))
+Image.toFile jpgOutput colPic
 
 /// <remarks> Utilize the histogram function from the image-module </remarks>
 let toX, toY = Image.histogram grayPic noBins
