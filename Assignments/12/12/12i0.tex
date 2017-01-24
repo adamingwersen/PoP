@@ -1,3 +1,4 @@
+\documentclass[a4paper,10pt]{article}
 % Character set and language
 \usepackage{cmap}
 \usepackage[utf8]{inputenc}
@@ -116,26 +117,6 @@
 \usepackage{verbdef}
 \verbdef{\cmdl}{>}
 
-\newcommand{\src}{src}
-\newcommand{\fs}[2]{
-  \lstinputlisting[language=fsharp]{\src/#1.fsx}
-  \lstinputlisting[language=console,caption={#1.fsx - #2},label=#1]{\src/#1.out}
-}
-\newcommand{\fsa}[3]{
-  \lstinputlisting[language=fsharp,#2]{\src/#1.fsx}
-  \lstinputlisting[language=console,caption={#1.fsx - #3},label=#1]{\src/#1.out}
-}
-\newcommand{\fse}[2]{
-  \lstinputlisting[language=fsharp,caption={#2},label=#1]{\src/#1.fsx}
-}
-\newcommand{\fso}[2]{
-  \lstinputlisting[language=fsharp,caption={fsharpi, #2},label=#1]{\src/#1.out}
-}
-\newcommand{\fsi}[2]{
-  \begin{minipage}[t]{#2\linewidth}
-    \lstinputlisting[aboveskip=0pt, belowskip=0pt]{\src/#1.out}
-  \end{minipage}
-}
 
 % Get counters from references for firstnumber references in lstinputlisting
 \usepackage{refcount}
@@ -145,5 +126,51 @@
 % \setcounterref{lstFrom}{dynamicScopeTracing:a1}
 % \setcounterref{lstTo}{dynamicScopeTracing:a2}
 % \lstinputlisting[firstline=\thelstFrom,lastline=\thelstTo,escapechar=|]{\src/dynamicScopeTracing.fsx}
+\newcommand{\BackgroundPic}{\put(-4,0){\parbox[b][\paperheight]{\paperwidth}{\centering\includegraphics[width=\paperwidth,height=\paperheight]{nat-farve.pdf}}}}
 
+\begin{document} 
+	\AddToShipoutPicture*{\BackgroundPic}
+	
+	\begin{titlepage}
+		\thispagestyle{empty}
+		\vspace*{5cm}
+		\begin{center}
+			\Huge \textbf{Programmering og Problemløsning} \\
+			\LARGE \textbf{Aflevering 9i - Objekt Orienteret Programmering} \\
+		\end{center}
+		\vspace*{3.5cm}
+		\begin{flushleft}
+			
+		\begin{table}[h!]
+			\begin{tabular}{lll}
+				Adam Ingwersen \\		
+			\end{tabular}
+		\end{table}
+			
+			
+			\vspace{3mm}
+			\vspace{3mm}
+			Datalogisk  Institut\\
+			Københavns Universitet\\
+			\vspace{3mm}
+			\today\\
+			%\vspace*{0.5cm}
+			
+		\end{flushleft}
+	\end{titlepage}
 
+	\title{9i}
+	\author{Adam}
+	
+	\newpage
+
+\newpage
+\section{Introduktion}
+
+\section{Programbeskrivelse}
+
+\section{Diskussion}
+
+\section{Konklusion}
+
+\end{document}
