@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.15)  24 JAN 2017 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.15)  27 JAN 2017 08:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**12i0.tex
-(./12i0.tex
+**5i.tex
+(./5i.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -616,8 +616,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count119
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
-) (./12i0.aux)
-\openout1 = `12i0.aux'.
+) (./5i.aux)
+\openout1 = `5i.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
@@ -702,77 +702,37 @@ Package pdftex.def Info: nat-farve.pdf used on input line 125.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./nat-farve.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 136.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 134.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (3.5723pt too wide) in paragraph at lines 136--138
-\T1/cmr/m/n/10 liste forskel-lige jpg-filer in-de-holdt af pro-gram-folderen i 
-kon-sollen. Her-til promptes
- []
+) [1]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 195.
 
-[1] [2] <mountain_gray.jpg, id=29, 501.875pt x 335.2525pt>
-File: mountain_gray.jpg Graphic file (type jpg)
 
-<use mountain_gray.jpg>
-Package pdftex.def Info: mountain_gray.jpg used on input line 167.
-(pdftex.def)             Requested size: 137.9979pt x 92.18193pt.
- <hist1.png, id=31, 1442.38875pt x 554.07pt>
-File: hist1.png Graphic file (type png)
-
-<use hist1.png>
-Package pdftex.def Info: hist1.png used on input line 172.
-(pdftex.def)             Requested size: 137.9979pt x 53.00919pt.
- <hist2.png, id=32, 1166.3575pt x 554.07pt>
-File: hist2.png Graphic file (type png)
- <use hist2.png>
-Package pdftex.def Info: hist2.png used on input line 179.
-(pdftex.def)             Requested size: 345.0pt x 163.88885pt.
-
-<blackwhite_gray.jpg, id=33, 738.76pt x 1001.7425pt>
-File: blackwhite_gray.jpg Graphic file (type jpg)
- <use blackwhite_gray.jpg>
-Package pdftex.def Info: blackwhite_gray.jpg used on input line 189.
-(pdftex.def)             Requested size: 137.9979pt x 187.12312pt.
-
-<hist4.png, id=34, 1269.74374pt x 554.07pt>
-File: hist4.png Graphic file (type png)
- <use hist4.png>
-Package pdftex.def Info: hist4.png used on input line 194.
-(pdftex.def)             Requested size: 137.9979pt x 60.21234pt.
- [3 <./mountain_gray.jpg> <./hist1.png> <./hist2.png>] <hist3.png, id=41, 1165.
-35374pt x 554.07pt>
-File: hist3.png Graphic file (type png)
-
-<use hist3.png>
-Package pdftex.def Info: hist3.png used on input line 201.
-(pdftex.def)             Requested size: 345.0pt x 164.02412pt.
- [4 <./blackwhite_gray.jpg> <./hist4.png> <./hist3.png>]
-(./12i0.aux) ) 
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [2] (./5i.aux) ) 
 Here is how much of TeX's memory you used:
- 7332 strings out of 493029
- 97845 string characters out of 6136233
- 176092 words of memory out of 5000000
- 10739 multiletter control sequences out of 15000+600000
- 21856 words of font info for 61 fonts, out of 8000000 for 9000
+ 7316 strings out of 493029
+ 97952 string characters out of 6136233
+ 278092 words of memory out of 5000000
+ 10738 multiletter control sequences out of 15000+600000
+ 16340 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,13n,40p,1107b,1159s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/
-share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-tt1000.pfb>
-Output written on 12i0.pdf (5 pages, 1081842 bytes).
+ 38i,13n,40p,806b,1180s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on 5i.pdf (3 pages, 159365 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -127,7 +127,7 @@ xAxis <- xCoord :: xAxis
 /// <summary> drawColumns: This function defines a Pen(), which is then used to "draw" lines between each successive point defined in the columnList, yAxis and xAxis </summary>
 /// <param name = "evnt"> The PaintEventArgs Class from the System.Windows.Forms namespace </param>
 /// <remarks> For each set of coordinates or Point() in columnList, yAxis and xAxis, respectively; draw a line between the [i]'th coordiante set and the [i+1]'th </remarks> 
-let drawColumns(evnt: PaintEventArgs) = 
+let draw(evnt: PaintEventArgs) = 
  let pen = new Pen (Color.Black)
  let brush = new SolidBrush (Color.Gray)
  for col in columnList do
@@ -144,7 +144,7 @@ makeColumnList(toX, toY, noBins, scales)
 /// <summary> Create a new instance of winform Form(), and draw the graph using the drawColumns function </summary>
 let wForm = new Form()
 wForm.Text <- histTitle 
-wForm.Paint.Add drawColumns
+wForm.Paint.Add draw
 wForm.ClientSize <- Size (xZero + spacing*(noBins + 1) + 35, xOffset + 200*scales)
 
 /// <summary> Create Labels for Histogram Chart </summary>

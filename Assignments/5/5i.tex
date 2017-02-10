@@ -1,0 +1,208 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{program}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{eso-pic}
+%\usepackage{gensymb}
+\usepackage{listings}
+\usepackage{float}
+
+\usepackage{xcolor}
+\definecolor{alternateKeywordsColor}{rgb}{0.13,1,0.13}
+\definecolor{keywordsColor}{rgb}{0.13,0.13,1}
+%\definecolor{commentsColor}{rgb}{0,0.5,0}
+\definecolor{commentsColor}{rgb}{0,0.5,0}
+%\definecolor{stringsColor}{rgb}{0.9,0,0}
+\definecolor{stringsColor}{rgb}{0,0,0.5}
+\definecolor{light-gray}{gray}{0.95}
+
+\lstdefinelanguage{fsharp}{%
+  keywords={abstract, and, as, assert, base, begin, class, default, delegate, do, done, downcast, downto, elif, else, end, exception, extern, false, finally, for, fun, function, global, if, in, inherit, inline, interface, internal, lazy, let, match, member, module, mutable, namespace, new, null, of, open, or, override, private, public, rec, return, sig, static, struct, then, to, true, try, type, upcast, use, val, void, when, while, with, yield},
+  morekeywords={atomic, break, checked, component, const, constraint, constructor, continue, eager, fixed, fori, functor, include, measure, method, mixin, object, parallel, params, process, protected, pure, recursive, sealed, tailcall, trait, virtual, volatile},
+  otherkeywords={ let!, return!, do!, yield!, use!},
+  keywordstyle=\color{keywordsColor},
+  %sensitive=true,
+  basicstyle=\ttfamily\lst@ifdisplaystyle\small\fi, % make font small for listings but not for lstinline
+  breaklines=true,
+  morecomment=[l][\color{commentsColor}]{///},
+  morecomment=[l][\color{commentsColor}]{//},
+  morecomment=[s][\color{commentsColor}]{{(*}{*)}},
+  morestring=[b]",
+  showstringspaces=false,
+  literate={`}{\`}1,
+  stringstyle=\color{stringsColor},
+  %aboveskip=0pt, 
+  %belowskip=0pt,
+  %resetmargins=true,
+  captionpos=b,
+  backgroundcolor=\color{black!5!white},
+}
+\lstdefinelanguage{ebnf}{%
+  keywords={},
+  morekeywords={},
+  otherkeywords={},
+  keywordstyle=\color{keywordsColor},
+  % sensitive=true,
+   basicstyle=\fontfamily{pcr}\selectfont\lst@ifdisplaystyle\small\fi, 
+   breaklines=true,
+  morecomment=[s][\color{commentsColor}]{{(*}{*)}},
+  morestring=[b]",
+  morestring=[b]',
+  alsoletter={\\},
+  showstringspaces=false,
+  %stringstyle=\color{stringsColor},
+  %aboveskip=0pt, 
+  %belowskip=0pt,
+  %resetmargins=true,
+  captionpos=b,
+  backgroundcolor=\color{blue!10!white},
+}
+\lstdefinelanguage{console}{%
+  keywords={},
+  morekeywords={},
+  otherkeywords={},
+  basicstyle=\ttfamily\lst@ifdisplaystyle\small\fi, 
+  breaklines=true,
+  showstringspaces=false,
+  % aboveskip=0pt, 
+  % belowskip=0pt,
+  %resetmargins=true,
+  captionpos=b,
+  backgroundcolor=\color{green!10!white},
+}
+\lstset{language=fsharp, frame=single}
+\usepackage{caption}
+\DeclareCaptionStyle{listing} [justification=raggedright,labelfont=bf]{}
+\captionsetup[lstlisting]{style=listing}
+
+
+\newcommand\floor[1]{\lfloor#1\rfloor}
+\newcommand\ceil[1]{\lceil#1\rceil}
+\newcommand{\BackgroundPic}{\put(-4,0){\parbox[b][\paperheight]{\paperwidth}{\centering\includegraphics[width=\paperwidth,height=\paperheight]{nat-farve.pdf}}}}
+
+\algnewcommand\True{\textbf{true}\space}
+\algnewcommand\False{\textbf{false}\space}
+\algdef{SE}[SUBALG]{Indent}{EndIndent}{}{\algorithmicend\ }%
+\algtext*{Indent}
+\algtext*{EndIndent}
+
+\begin{document} 
+	\AddToShipoutPicture*{\BackgroundPic}
+	
+	\begin{titlepage}
+		\thispagestyle{empty}
+		\vspace*{5cm}
+		\begin{center}
+			\Huge \textbf{Programmering og Problemløsning} \\
+			\LARGE \textbf{Aflevering 5i} \\
+		\end{center}
+		\vspace*{3.5cm}
+		\begin{flushleft}
+			
+		\begin{table}[h!]
+			\begin{tabular}{lll}
+				Adam Ingwersen\\
+			\end{tabular}
+		\end{table}
+			
+			
+			\vspace{3mm}
+			\vspace{3mm}
+			Datalogisk  Institut\\
+			Københavns Universitet\\
+			\vspace{3mm}
+			\today\\
+			%\vspace*{0.5cm}
+			
+		\end{flushleft}
+	\end{titlepage}
+
+	\title{10g}
+	\author{AAP}
+	
+	\newpage
+\newpage
+\section{Programbeskrivelse}
+\subsection{5i.1)}
+For at folde nestede lister ud, anvendes \texttt{List.foldBack} samt append-operatoren for lister: 
+
+\begin{lstlisting}{language = fsharp}
+let concat list = List.foldBack(fun x y -> x@y) list []
+\end{lstlisting}
+
+\subsection{5i.2)}
+Denne delopgave at returnere et gennemsnit af en liste af \texttt{option}-typen. Til dette formål, er der her valgt, at anvende en hjælpefunktion, \texttt{gennemsnitHelp}:
+\begin{lstlisting}{language = fsharp}
+let gennemsnitHelp liste =
+ liste 
+ |> List.fold (fun (elem, acc) x -> (elem + x, acc + 1.0)) (0.0, 0.0)
+ |> (fun (elem, acc) -> elem / acc)
+\end{lstlisting}
+
+..For derefter, at konstruere funktionen, der anvender option-typen: 
+\begin{lstlisting}{language = fsharp}
+let gennemsnit liste = 
+ try 
+  let avg = gennemsnitHelp liste
+  Some avg
+ with _ -> None
+\end{lstlisting}
+
+\subsection{5i.3)}
+I denne delopgave skal vi sortere et array funktionelt. Denne tilgang er inspireret af mergesort. Her har det været smart at tage en approach, der bygger på tre funktioner, til at løse problemstillingen. Funktionerne \texttt{arraySplit, arrayMerge, arraySort} gør netop dette. 
+
+Funktionerne gør nogenlunde hvad, man skulle tro, de gør: 
+\begin{lstlisting}{language = fsharp}
+let rec arraySplit (arrIn: 'a []) (left: 'a []) (right: 'a []) = 
+ match arrIn with
+ | [||] -> (left, right)
+ | _ -> (arraySplit (Array.tail arrIn) right (Array.append [|Array.head arrIn|] left)) 
+\end{lstlisting}
+
+I \texttt{arraySplit}, splittes et array op i to.
+
+\begin{lstlisting}{language = fsharp}
+let rec arrayMerge ((left: 'a []), (right: 'a [])) =
+ match (left, right) with 
+ | (left, [||]) -> left
+ | ([||], right) -> right
+ | (_,_) -> if ((left.[0]) < (right.[0])) 
+                      then Array.append [|left.[0]|] (arrayMerge (left.[1..], right)) 
+              else Array.append [|right.[0]|] (arrayMerge (left, right.[1..]))
+
+\end{lstlisting}
+I \texttt{arrayMerge} samles to arrays og sorteres i processen.  
+
+\begin{lstlisting}{language = fsharp}
+let rec arraySort = function
+ | [||] -> [||]
+ | [|x|] -> [|x|]
+ | testArr -> 
+  let (temp1, temp2) = arraySplit testArr [||] [||]
+  arrayMerge ((arraySort temp1), arraySort temp2)
+\end{lstlisting}
+I \texttt{arraySort} samles de to ovenstående funktioner, for rekursivt at applikere et split og et merge på et vilkårligt, usorteret array. En umiddelbar kritik af denne løsning vil være, at der kun bliver splittet med eet element af gangen, og dette kan gøres med færre operationer. I størstedelen af praktiske implementeringer af denne slags funktioner, vil man som oftest være bedst tjent ved at bero sig på de indbyggede moduler - i dette tilfælde \texttt{List.sort}. 
+
+\subsection{5i.4)}
+I denne delopgave skal en sorteringsfunktion implementeres imperativt - inspireret af insertion-sort. 
+Indledningsvist konstrueres en hjælpefunktion, der kan bytte plads mellem to nærliggende (adjacent) elemeter i et array. Denne funktion, er blevet kaldt \texttt{swap}. Herefter laves en funktion \texttt{arraySortD}, der anvender \texttt{swap} i et for-loop til at bytte om på elementer, hvis disses værdier er sorteret i aftagende rækkefølge, de to elementer imellem. Der føres regnskab med med variablen \texttt{check} med det formål at gentage loopet, over hele array'et indtil slut. Hvis dette regnskab ikke blev ført, ville hele array'et blive traverseret en gang - men et array, eks: [|3;5;2|] ville blive til [|3;2;5|] - dette løses med \texttt{check} og rekursion. 
+
+\begin{lstlisting}{language = fsharp}
+let arraySortD (arr: 'a []) = 
+  let rec loop(arr: 'a []) = 
+    let mutable check = 0 
+    for i = 0 to ((Array.length arr) - 2) do
+      if arr.[i] > arr.[i+1] then 
+        swap i arr 
+        check <- check + 1
+    if check > 0 then loop arr else arr
+  loop arr
+\end{lstlisting}
+\end{document}
